@@ -33,4 +33,4 @@
 - Finding the right data 
 - help data consumers find the most appropriate data source(s) to meet their needs
 - help users make sense of what is available
-- unmask new links with other datasets they’d never thought of
+- unmask new links with other datasets they may never have considered
