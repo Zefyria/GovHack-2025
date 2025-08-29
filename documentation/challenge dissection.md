@@ -1,6 +1,8 @@
 # Navigating Australia’s Data Landscape
 
-## *Can you connect data users with the right data to answer their questions?*
+*Can you connect data users with the right data to answer their questions?*
+
+[GovHack 2025 challenge](https://hackerspace.govhack.org/challenges/navigating_australia_s_data_landscape)
 
 ## Opportunity:
 
