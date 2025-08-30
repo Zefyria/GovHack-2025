@@ -178,3 +178,374 @@ LINE 1: DELETE FROM govhack2025.datasets WHERE source_name = 'AIHW R...
                                                ^
 
 2025-08-30 12:21:36,716 [INFO] Harvest completed.
+2025-08-30 12:23:21,496 [INFO] Initializing database...
+2025-08-30 12:23:24,170 [INFO] Starting harvest...
+2025-08-30 12:23:24,171 [INFO] Processing Australian Bureau of Statistics (api)
+2025-08-30 12:23:24,319 [ERROR] Failed to harvest Australian Bureau of Statistics: column "source_name" does not exist
+LINE 1: DELETE FROM govhack2025.datasets WHERE source_name = 'Austra...
+                                               ^
+
+2025-08-30 12:23:24,320 [INFO] Processing Data.gov.au (api)
+2025-08-30 12:23:24,357 [ERROR] Failed to harvest Data.gov.au: column "source_name" does not exist
+LINE 1: DELETE FROM govhack2025.datasets WHERE source_name = 'Data.g...
+                                               ^
+
+2025-08-30 12:23:24,358 [INFO] Processing AIHW Reports (html_aihw)
+2025-08-30 12:23:24,394 [ERROR] Failed to harvest AIHW Reports: column "source_name" does not exist
+LINE 1: DELETE FROM govhack2025.datasets WHERE source_name = 'AIHW R...
+                                               ^
+
+2025-08-30 12:23:24,395 [INFO] Harvest completed.
+2025-08-30 12:24:19,199 INFO:Initializing database...
+2025-08-30 12:24:19,200 INFO:Initializing database...
+2025-08-30 12:24:24,276 INFO:Initializing database...
+2025-08-30 12:24:24,276 INFO:Initializing database...
+2025-08-30 12:24:26,922 INFO:Database initialized and table ready.
+2025-08-30 12:24:26,923 INFO:Starting harvest...
+2025-08-30 12:24:26,923 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 12:24:28,096 ERROR:Failed to fetch API data: 422
+2025-08-30 12:24:28,099 INFO:No datasets returned for Australian Bureau of Statistics
+2025-08-30 12:24:28,099 INFO:Processing Data.gov.au (api)
+2025-08-30 12:24:28,694 ERROR:Failed to fetch API data: 500
+2025-08-30 12:24:28,695 INFO:No datasets returned for Data.gov.au
+2025-08-30 12:24:28,696 INFO:Processing AIHW Reports (html_aihw)
+2025-08-30 12:34:00,502 INFO:Initializing database...
+2025-08-30 12:34:02,732 INFO:Database initialized and table ready.
+2025-08-30 12:34:02,787 INFO:Starting harvest...
+2025-08-30 12:34:02,787 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 12:34:02,790 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 12:34:03,545 ERROR:Failed to fetch API data: Expecting value: line 1 column 1 (char 0)
+2025-08-30 12:34:03,547 INFO:Australian Bureau of Statistics returned 0 datasets
+2025-08-30 12:34:03,547 INFO:Processing Data.gov.au (api)
+2025-08-30 12:34:03,547 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 12:34:04,188 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 12:34:04,189 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,189 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,190 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,190 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,190 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,190 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,191 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,191 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,191 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,192 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,192 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,192 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,193 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,193 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,193 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,194 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,194 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,194 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,195 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,195 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,196 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,196 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,196 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,197 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,197 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,198 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,198 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,198 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,199 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,199 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,199 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,200 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,200 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,200 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,201 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,201 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,201 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,202 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,202 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,202 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,203 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,203 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,204 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,204 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,204 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,205 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,205 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,205 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,206 ERROR:Failed to insert dataset: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-30 12:34:04,206 INFO:Data.gov.au returned 50 datasets
+2025-08-30 12:34:04,206 INFO:Processing AIHW Reports (html_aihw)
+2025-08-30 12:34:04,206 INFO:Cleared previous datasets for AIHW Reports
+2025-08-30 12:34:04,773 ERROR:Failed to fetch HTML data: 403 Client Error: Forbidden for url: https://www.aihw.gov.au/reports-data
+2025-08-30 12:34:04,774 INFO:AIHW Reports returned 0 datasets
+2025-08-30 12:34:04,774 INFO:Harvest completed.
+2025-08-30 12:40:01,413 INFO:Initializing database...
+2025-08-30 12:40:03,323 INFO:Database initialized and table ready.
+2025-08-30 12:40:03,332 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 12:40:03,470 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 12:40:03,470 INFO:Fetching API data from Australian Bureau of Statistics
+2025-08-30 12:40:04,616 ERROR:Failed to fetch API data: 404 Client Error: Not Found for url: https://data.api.abs.gov.au:443/rest/data/ABS,CPI,1.0.0/1.0.0?startPeriod=2023-Q1&endPeriod=2023-Q2&format=json
+2025-08-30 12:40:04,619 INFO:No datasets returned for Australian Bureau of Statistics
+2025-08-30 12:40:04,619 INFO:Processing Data.gov.au (api)
+2025-08-30 12:40:04,659 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 12:40:04,659 INFO:Fetching API data from Data.gov.au
+2025-08-30 12:40:05,355 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:05,391 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:05,428 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:05,464 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:05,500 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:05,643 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:05,680 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:05,717 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:05,752 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:05,787 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:05,823 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:05,963 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:05,999 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,035 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,070 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,107 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,142 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,179 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,214 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,250 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,285 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,320 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,357 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,393 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,428 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,464 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,603 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,639 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,779 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,815 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,956 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:06,991 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:07,026 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:07,062 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:07,097 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:07,134 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:07,285 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:07,419 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:07,456 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:07,491 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:07,626 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:07,771 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:07,807 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:07,944 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:08,088 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:08,123 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:08,159 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:08,197 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:08,233 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:08,374 ERROR:Failed to insert dataset: column "title" of relation "datasets" does not exist
+LINE 3:             (source_name, title, description, url, format, l...
+                                  ^
+
+2025-08-30 12:40:08,375 INFO:Data.gov.au returned 50 datasets
+2025-08-30 12:40:08,375 INFO:Processing AIHW Reports (html)
+2025-08-30 12:40:08,412 INFO:Cleared previous datasets for AIHW Reports
+2025-08-30 12:40:08,412 INFO:Fetching HTML data from AIHW Reports
+2025-08-30 12:40:08,881 ERROR:Failed to fetch HTML data: 403 Client Error: Forbidden for url: https://www.aihw.gov.au/reports-data
+2025-08-30 12:40:08,882 INFO:No datasets returned for AIHW Reports
+2025-08-30 12:51:18,104 INFO:Initializing database...
+2025-08-30 12:51:25,870 INFO:Initializing database...
+2025-08-30 12:51:27,994 INFO:Database initialized and table ready.
+2025-08-30 12:51:27,995 INFO:Starting harvest...
+2025-08-30 12:52:59,332 INFO:Initializing database...
+2025-08-30 12:53:01,981 INFO:Database initialized and table ready.
+2025-08-30 12:53:01,981 INFO:Starting harvest...
