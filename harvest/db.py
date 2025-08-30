@@ -1,7 +1,7 @@
 import psycopg2
 from psycopg2 import sql
 import getpass
-from logging_config import logger
+from .logging_config import logger
 
 DB_CONFIG = {
     "host": "localhost",

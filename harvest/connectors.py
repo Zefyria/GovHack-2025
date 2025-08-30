@@ -1,7 +1,7 @@
 import json
 import importlib
-from logging_config import logger
-from db import upsert_dataset
+from .logging_config import logger
+from .db import upsert_dataset
 
 def load_sources(json_file="harvest/urls.json"):
     with open(json_file) as f:

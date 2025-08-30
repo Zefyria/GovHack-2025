@@ -1,4 +1,4 @@
-from logging_config import logger
+from ..logging_config import logger
 from datetime import datetime
 
 def harvest(base_url):
