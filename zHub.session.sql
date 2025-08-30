@@ -1,2 +1,1 @@
-DROP TABLE IF EXISTS govhack2025.datasets;
-
+DELETE FROM  govhack2025.datasets;
