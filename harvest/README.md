@@ -1,13 +1,12 @@
+```
 pakfa/
 ├─ harvest/
-│  ├─ run_harvest.py         # MAIN SCRIPT
-│  ├─ connectors.py          # decides which connector to use per URL
-│  ├─ db.py                  # DB connection + schema creation
-│  ├─ normalise_utils.py     # normalize fields (title, desc, API link, etc.)
-│  ├─ robots_helper.py       # check robots.txt
-│  ├─ logging_config.py      # logging setup
-│  ├─ urls.json              # list of URLs to harvest
-│  └─ connectors/            
-│      ├─ abs_connector.py
-│      ├─ ckan_connector.py
-│      └─ html_scraper.py
+│  ├─ harvest_runner.py      # MAIN SCRIPT (runs full harvest)
+│  ├─ connectors.py          # dynamic connector; loops through urls.json
+│  ├─ db.py                  # DB connection + schema creation + refresh_dataset
+│  ├─ normalise_utils.py     # normalize fields (title, description, API link, etc.)
+│  ├─ robots_helper.py       # check robots.txt for scraping rules
+│  ├─ logging_config.py      # logging setup (console + file)
+│  ├─ urls.json              # list of sources to harvest (name, url, type, notes)
+│  └─ __init__.py            # package marker
+```

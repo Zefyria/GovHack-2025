@@ -1,20 +1,20 @@
 [
   {
-    "name": "ABS",
+    "name": "Australian Bureau of Statistics",
     "url": "https://beta.abs.gov.au/",
-    "type": "abs",
-    "notes": "ABS API (must include at least one dataset)"
+    "type": "api",
+    "notes": "Use ABS API to discover datasets"
   },
   {
     "name": "Data.gov.au",
-    "url": "https://data.gov.au",
-    "type": "ckan",
-    "notes": "CKAN portal"
+    "url": "https://data.gov.au/",
+    "type": "api",
+    "notes": "CKAN API"
   },
   {
     "name": "AIHW Reports",
     "url": "https://www.aihw.gov.au/reports-data",
     "type": "html",
-    "notes": "Scrape HTML site; no API"
+    "notes": "HTML scraping for downloadable files"
   }
 ]

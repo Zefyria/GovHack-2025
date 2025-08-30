@@ -12,3 +12,21 @@
 2025-08-30 10:49:22,162 ERROR:Failed to process Data.gov.au: there is no unique or exclusion constraint matching the ON CONFLICT specification
 
 2025-08-30 10:49:22,162 ERROR:Failed to process AIHW Reports: No module named 'harvest.connectors.html_connector'
+2025-08-30 10:53:18,013 INFO:Database initialized and table ready.
+2025-08-30 10:53:18,015 INFO:ABS returned 2 datasets
+2025-08-30 10:53:18,016 ERROR:Failed to process ABS: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-08-30 10:53:18,017 INFO:Data.gov.au returned 1 datasets
+2025-08-30 10:53:18,017 ERROR:Failed to process Data.gov.au: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-08-30 10:53:18,019 INFO:AIHW Reports returned 1 datasets
+2025-08-30 10:53:18,019 ERROR:Failed to process AIHW Reports: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-08-30 10:56:10,879 INFO:Database initialized and table ready.
+2025-08-30 10:56:10,881 INFO:ABS returned 2 datasets
+2025-08-30 10:56:10,884 INFO:Upserted dataset: Labour Force Survey
+2025-08-30 10:56:10,885 INFO:Upserted dataset: Census 2021
+2025-08-30 10:56:10,886 INFO:Data.gov.au returned 1 datasets
+2025-08-30 10:56:10,886 INFO:Upserted dataset: Data.gov.au sample
+2025-08-30 10:56:10,887 INFO:AIHW Reports returned 1 datasets
+2025-08-30 10:56:10,888 INFO:Upserted dataset: AIHW Reports Sample

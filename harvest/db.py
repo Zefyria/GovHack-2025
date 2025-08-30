@@ -1,4 +1,3 @@
-# db.py
 import psycopg2
 from psycopg2 import sql
 from .logging_config import logger
@@ -31,17 +30,22 @@ def init_db():
             download TEXT
         );
     """)
+
     logger.info("Database initialized and table ready.")
     return conn
 
-def upsert_dataset(conn, dataset):
+def refresh_dataset(conn, dataset):
+    """
+    Delete dataset if it already exists, then insert fresh.
+    """
     cur = conn.cursor()
+    cur.execute("SELECT id FROM govhack2025.datasets WHERE name = %s", (dataset["name"],))
+    if cur.fetchone():
+        logger.info(f"Deleting old dataset: {dataset['name']}")
+        cur.execute("DELETE FROM govhack2025.datasets WHERE name = %s", (dataset["name"],))
+    # Insert fresh
     cur.execute("""
         INSERT INTO govhack2025.datasets (name, description, available, download)
         VALUES (%s, %s, %s, %s)
-        ON CONFLICT (name) DO UPDATE 
-        SET description = EXCLUDED.description,
-            available = EXCLUDED.available,
-            download = EXCLUDED.download;
     """, (dataset["name"], dataset["description"], dataset["available"], dataset["download"]))
     conn.commit()
