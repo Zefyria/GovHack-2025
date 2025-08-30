@@ -1,14 +1,14 @@
 [
     {
         "name": "Australian Bureau of Statistics",
-        "url": "",
+        "url": "https://data.api.abs.gov.au/rest/dataflow/ABS",
         "type": "api",
-        "notes": "Use ABS Data API; provide valid series and period in query"
+        "notes": ""
     },
     {
         "name": "Data.gov.au",
-        "url": "https://data.gov.au/api/3/action/package_search",
+        "url": "https://data.gov.au/api/3/action/package_search?rows=50",
         "type": "api",
-        "notes": "CKAN API; will paginate"
+        "notes": ""
     }
 ]
