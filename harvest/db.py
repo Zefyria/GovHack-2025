@@ -1,23 +1,25 @@
 import psycopg2
 from psycopg2 import sql
+from getpass import getpass
 from .logging_config import logger
 
 DB_CONFIG = {
     "host": "localhost",
     "port": 5432,
-    "dbname": "zHub",
+    "dbname": "govhack2025",
     "user": "postgres",
     "password": None  # will prompt
 }
 
-def init_db():
+def get_connection():
     if not DB_CONFIG["password"]:
-        DB_CONFIG["password"] = input("Enter PostgreSQL password: ")
-
+        DB_CONFIG["password"] = getpass("Enter PostgreSQL password: ")
     conn = psycopg2.connect(**DB_CONFIG)
-    conn.autocommit = True
-    cur = conn.cursor()
+    return conn
 
+def init_db():
+    conn = get_connection()
+    cur = conn.cursor()
     # Create schema if not exists
     cur.execute("CREATE SCHEMA IF NOT EXISTS govhack2025;")
     # Create table if not exists
@@ -30,22 +32,25 @@ def init_db():
             download TEXT
         );
     """)
-
-    logger.info("Database initialized and table ready.")
-    return conn
-
-def refresh_dataset(conn, dataset):
-    """
-    Delete dataset if it already exists, then insert fresh.
-    """
-    cur = conn.cursor()
-    cur.execute("SELECT id FROM govhack2025.datasets WHERE name = %s", (dataset["name"],))
-    if cur.fetchone():
-        logger.info(f"Deleting old dataset: {dataset['name']}")
-        cur.execute("DELETE FROM govhack2025.datasets WHERE name = %s", (dataset["name"],))
-    # Insert fresh
-    cur.execute("""
-        INSERT INTO govhack2025.datasets (name, description, available, download)
-        VALUES (%s, %s, %s, %s)
-    """, (dataset["name"], dataset["description"], dataset["available"], dataset["download"]))
     conn.commit()
+    cur.close()
+    conn.close()
+
+def refresh_dataset(dataset):
+    """Delete any existing dataset with same name and insert the new one"""
+    conn = get_connection()
+    cur = conn.cursor()
+    try:
+        cur.execute("DELETE FROM govhack2025.datasets WHERE name = %s;", (dataset["name"],))
+        cur.execute("""
+            INSERT INTO govhack2025.datasets (name, description, available, download)
+            VALUES (%s, %s, %s, %s);
+        """, (dataset["name"], dataset["description"], dataset["available"], dataset["download"]))
+        conn.commit()
+        logger.info(f"Inserted dataset: {dataset['name']}")
+    except Exception as e:
+        logger.error(f"Failed to insert dataset {dataset['name']}: {e}")
+        conn.rollback()
+    finally:
+        cur.close()
+        conn.close()

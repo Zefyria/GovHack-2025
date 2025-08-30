@@ -30,3 +30,71 @@
 2025-08-30 10:56:10,886 INFO:Upserted dataset: Data.gov.au sample
 2025-08-30 10:56:10,887 INFO:AIHW Reports returned 1 datasets
 2025-08-30 10:56:10,888 INFO:Upserted dataset: AIHW Reports Sample
+2025-08-30 11:10:46,388 INFO:Database initialized and table ready.
+2025-08-30 11:10:46,389 INFO:Database initialized and table ready.
+2025-08-30 11:10:46,397 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 11:10:47,665 ERROR:Failed to harvest Australian Bureau of Statistics: 403 Client Error: Forbidden for url: https://beta.abs.gov.au/catalogue/1.0.0/data
+2025-08-30 11:10:47,667 INFO:Australian Bureau of Statistics returned 0 datasets
+2025-08-30 11:10:47,667 INFO:Processing Data.gov.au (api)
+2025-08-30 11:11:17,164 INFO:Data.gov.au returned 50 datasets
+2025-08-30 11:11:17,164 INFO:Processing AIHW Reports (html)
+2025-08-30 11:11:17,717 ERROR:Failed to harvest AIHW Reports: 403 Client Error: Forbidden for url: https://www.aihw.gov.au/reports-data
+2025-08-30 11:11:17,718 INFO:AIHW Reports returned 0 datasets
+2025-08-30 11:11:17,742 INFO:Inserted dataset: 000VIC Emergency Markers
+2025-08-30 11:11:17,743 INFO:Inserted dataset: Location, Physical and Biological Attributes of Great Artesian Basin Spring Complexes - ARC
+2025-08-30 11:11:17,744 INFO:Inserted dataset: Majors streams and rivers in the Gippsland Basin cut to the extent of the Gippsland Basin Bioregional Assessment extent.  Source of the data is not known, either the Victorian statewide dataset or a national hydrology dataset.
+2025-08-30 11:11:17,747 INFO:Inserted dataset: CLM - Lamington volcanics
+2025-08-30 11:11:17,748 INFO:Inserted dataset: GLO MF Alluvium exceedance probabilites v01
+2025-08-30 11:11:17,749 INFO:Inserted dataset: Basement Outcrop Older than Carboniferous Northern Territory - PED
+2025-08-30 11:11:17,749 INFO:Inserted dataset: QLD DSITIA Cooper subregion, Bulloo Local Government Area (LGA) Species List
+2025-08-30 11:11:17,750 INFO:Inserted dataset: QLD DNRM Seismic survey deep - Queensland
+2025-08-30 11:11:17,751 INFO:Inserted dataset: Historic flood extent for West Gippsland and East Gippsland CMA regions.
+2025-08-30 11:11:17,753 INFO:Inserted dataset: NAM ZOPHC Master for impact and risk analysis 20170629
+2025-08-30 11:11:17,754 INFO:Inserted dataset: Great Artesian Basin Aquifer Outcrop - ARC
+2025-08-30 11:11:17,755 INFO:Inserted dataset: Key Climate groups of the objective classification of Australian Climates using K&#xF6;ppen's scheme
+2025-08-30 11:11:17,756 INFO:Inserted dataset: Galilee groundwater bore and petroleum well data
+2025-08-30 11:11:17,757 INFO:Inserted dataset: NSW Office of Water GW licence extract linked to spatial locations - GLO v5 UID elements 27032014
+2025-08-30 11:11:17,758 INFO:Inserted dataset: Victorian river basins
+2025-08-30 11:11:17,758 INFO:Inserted dataset: Gippsland mapped lakes
+2025-08-30 11:11:17,759 INFO:Inserted dataset: Dynamic land cover - Gippsland Basin bioregion clip
+2025-08-30 11:11:17,760 INFO:Inserted dataset: GLO AWRA Model v02
+2025-08-30 11:11:17,761 INFO:Inserted dataset: Total Daily Stream flow Sydney Catchment Authority 20141211
+2025-08-30 11:11:17,761 INFO:Inserted dataset: Cartographic masks for map products GAL213
+2025-08-30 11:11:17,762 INFO:Inserted dataset: Asset database for the Maranoa-Balonne-Condamine subregion on 9 June 2015
+2025-08-30 11:11:17,763 INFO:Inserted dataset: Northern Territory Groundwater Management Units 20140630
+2025-08-30 11:11:17,763 INFO:Inserted dataset: Murray-Darling Basin floodplain inundation 1 in 100 year extent
+2025-08-30 11:11:17,764 INFO:Inserted dataset: Qld 100k mapsheets - Kingaroy
+2025-08-30 11:11:17,764 INFO:Inserted dataset: Great Artesian Basin - Hydrogeology and Extent Boundary
+2025-08-30 11:11:17,765 INFO:Inserted dataset: Mean Annual Climate Data of Australia 1981 to 2012
+2025-08-30 11:11:17,765 INFO:Inserted dataset: Gridded area of development and non-development related disturbances
+2025-08-30 11:11:17,766 INFO:Inserted dataset: CLM - Walloon Coal Measures Isopach thickness scanned image
+2025-08-30 11:11:17,767 INFO:Inserted dataset: Hopkins thrust system and Mingobar structure Lines
+2025-08-30 11:11:17,767 INFO:Inserted dataset: Gippsland mean annual rainfall
+2025-08-30 11:11:17,768 INFO:Inserted dataset: GLO SW Model Calibration Gauges v01
+2025-08-30 11:11:17,768 INFO:Inserted dataset: Unreg surface water licences DELWP Gippsland 20150301
+2025-08-30 11:11:17,769 INFO:Inserted dataset: QLD Current Authorities to Prospect for Petroleum (ATP), 6/3/2013
+2025-08-30 11:11:17,770 INFO:Inserted dataset: SSB Mines footprint WaterNSW May2016
+2025-08-30 11:11:17,770 INFO:Inserted dataset: Queensland Geological Digital Data - Detailed state extent, regional. November 2012
+2025-08-30 11:11:17,771 INFO:Inserted dataset: CLM - Richmond stream gauge data
+2025-08-30 11:11:17,772 INFO:Inserted dataset: Galilee Basin, Permian Outcrop
+2025-08-30 11:11:17,772 INFO:Inserted dataset: Bremer GW bores stratigraphy
+2025-08-30 11:11:17,773 INFO:Inserted dataset: HUN Geological Model Eroded Horizons Masks v01
+2025-08-30 11:11:17,774 INFO:Inserted dataset: EIS Gloucester Coal 2010
+2025-08-30 11:11:17,774 INFO:Inserted dataset: Topography - South Australia - ARC
+2025-08-30 11:11:17,775 INFO:Inserted dataset: Namoi AWRA-R (restricted input data implementation)
+2025-08-30 11:11:17,775 INFO:Inserted dataset: Tomago sand beds
+2025-08-30 11:11:17,776 INFO:Inserted dataset: Gloucester Deep Wells Completion Reports - Geology
+2025-08-30 11:11:17,776 INFO:Inserted dataset: Warwick-Tweed Heads 250k metallogenic map
+2025-08-30 11:11:17,777 INFO:Inserted dataset: Monitoring Power Generation and Water Supply Bores Hunter NOW 20150514
+2025-08-30 11:11:17,777 INFO:Inserted dataset: Traralgon Formation coal isopachs
+2025-08-30 11:11:17,778 INFO:Inserted dataset: Namoi Surface Water model nodes for impact and risk analysis 20170515
+2025-08-30 11:11:17,778 INFO:Inserted dataset: Impact and Risk Analysis Database Documentation
+2025-08-30 11:11:17,779 INFO:Inserted dataset: Mean monthly and mean annual rainfall data (base climatological data sets) - ARC
+2025-08-30 11:11:17,779 INFO:Harvest completed.
+2025-08-30 11:31:25,374 INFO:Initializing database...
+2025-08-30 11:32:25,501 INFO:Initializing database...
+2025-08-30 11:32:28,308 INFO:Database initialized and table ready.
+2025-08-30 11:32:28,308 INFO:Starting harvest...
+2025-08-30 11:32:55,289 INFO:Initializing database...
+2025-08-30 11:32:57,395 INFO:Database initialized and table ready.
+2025-08-30 11:32:57,395 INFO:Starting harvest...

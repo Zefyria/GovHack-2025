@@ -1,9 +1,9 @@
 [
   {
     "name": "Australian Bureau of Statistics",
-    "url": "https://beta.abs.gov.au/",
+    "url": "https://data.api.abs.gov.au/rest/data/ABS,CPI,1.0.0/1234?startPeriod=2020&endPeriod=2021&format=json",
     "type": "api",
-    "notes": "Use ABS API to discover datasets"
+    "notes": "Consumer Price Index data from the ABS Data API"
   },
   {
     "name": "Data.gov.au",
