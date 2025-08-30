@@ -1,8 +1,7 @@
-import axios from "axios";
+export const API_URL = "http://localhost:8000/datasets";
 
-const API_BASE = "http://localhost:8000";
-
-export const fetchDatasets = async (params = {}) => {
-  const res = await axios.get(`${API_BASE}/datasets`, { params });
-  return res.data;
-};
+export async function fetchDatasets() {
+  const response = await fetch(API_URL);
+  if (!response.ok) throw new Error("Failed to fetch datasets");
+  return response.json();
+}

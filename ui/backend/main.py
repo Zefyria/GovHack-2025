@@ -4,10 +4,10 @@ from db import get_connection
 
 app = FastAPI()
 
-# Allow frontend to access API
+# Allow frontend to call backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Replace with frontend URL in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -17,25 +17,20 @@ app.add_middleware(
 def get_datasets():
     conn = get_connection()
     cur = conn.cursor()
-    # Remove 'topic' from the SELECT
-    cur.execute("""
-        SELECT source_name, title, description, url, format_
-        FROM govhack2025.datasets
-        ORDER BY id DESC
-    """)
+    cur.execute(
+        "SELECT source_name, title, description, url, format_ FROM govhack2025.datasets ORDER BY id DESC"
+    )
     rows = cur.fetchall()
-    cur.close()
-    conn.close()
-
-    # Convert to list of dicts
     datasets = [
         {
             "source_name": r[0],
             "title": r[1],
             "description": r[2],
             "url": r[3],
-            "format": r[4],
+            "format_": r[4],
         }
         for r in rows
     ]
-    return {"datasets": datasets}
+    cur.close()
+    conn.close()
+    return datasets
