@@ -1,3 +1,4 @@
+# harvest_runner.py
 import json
 import importlib
 from .db import init_db, upsert_dataset
@@ -20,3 +21,6 @@ def run_harvest():
                     logger.info(f"Upserted dataset: {ds['name']}")
         except Exception as e:
             logger.error(f"Failed to process {entry['name']}: {e}")
+
+if __name__ == "__main__":
+    run_harvest()
