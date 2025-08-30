@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ABS",
+    "url": "https://beta.abs.gov.au/",
+    "type": "abs",
+    "notes": "ABS API (must include at least one dataset)"
+  },
+  {
+    "name": "Data.gov.au",
+    "url": "https://data.gov.au",
+    "type": "ckan",
+    "notes": "CKAN portal"
+  },
+  {
+    "name": "AIHW Reports",
+    "url": "https://www.aihw.gov.au/reports-data",
+    "type": "html",
+    "notes": "Scrape HTML site; no API"
+  }
+]
