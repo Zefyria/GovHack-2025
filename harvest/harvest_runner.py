@@ -1,7 +1,22 @@
-from .db import init_db
-from .connectors import run_harvest
+import json
+import importlib
+from .db import init_db, upsert_dataset
+from .logging_config import logger
 
-if __name__ == "__main__":
+def run_harvest():
     conn = init_db()
-    run_harvest(conn)
-    print("Harvest complete. Check harvest.log for details.")
+    # Load URLs from JSON
+    with open("harvest/urls.json", "r") as f:
+        urls = json.load(f)
+
+    for entry in urls:
+        connector_module_name = f"harvest.connectors.{entry['type']}_connector"
+        try:
+            module = importlib.import_module(connector_module_name)
+            if hasattr(module, "harvest"):
+                datasets = module.harvest(entry["url"])
+                for ds in datasets:
+                    upsert_dataset(conn, ds)
+                    logger.info(f"Upserted dataset: {ds['name']}")
+        except Exception as e:
+            logger.error(f"Failed to process {entry['name']}: {e}")
