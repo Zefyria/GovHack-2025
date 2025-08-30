@@ -4,7 +4,8 @@ from .logging_config import logger
 
 def main():
     init_db()
-    harvest_all("urls.json")
+    harvest_all()
+    logger.info("Harvest completed.")
 
 if __name__ == "__main__":
     main()

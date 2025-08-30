@@ -1,14 +1,14 @@
 [
-  {
-    "name": "Australian Bureau of Statistics",
-    "url": "https://data.api.abs.gov.au/rest/data/6202.0", 
-    "type": "api",
-    "notes": ""
-  },
-  {
-    "name": "Data.gov.au",
-    "url": "https://data.gov.au/api/3/action/package_search?q=&rows=200",
-    "type": "api",
-    "notes": ""
-  }
+    {
+        "name": "Australian Bureau of Statistics",
+        "url": "",
+        "type": "api",
+        "notes": "Use ABS Data API; provide valid series and period in query"
+    },
+    {
+        "name": "Data.gov.au",
+        "url": "https://data.gov.au/api/3/action/package_search",
+        "type": "api",
+        "notes": "CKAN API; will paginate"
+    }
 ]

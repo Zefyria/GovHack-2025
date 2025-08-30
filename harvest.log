@@ -549,3 +549,1970 @@ LINE 3:             (source_name, title, description, url, format, l...
 2025-08-30 12:52:59,332 INFO:Initializing database...
 2025-08-30 12:53:01,981 INFO:Database initialized and table ready.
 2025-08-30 12:53:01,981 INFO:Starting harvest...
+2025-08-30 12:53:29,056 INFO:Initializing database...
+2025-08-30 12:53:31,612 INFO:Database initialized and table ready.
+2025-08-30 12:53:31,612 INFO:Starting harvest...
+2025-08-30 12:55:53,647 INFO:Initializing database...
+2025-08-30 12:55:55,421 INFO:Database initialized and table ready.
+2025-08-30 12:55:55,421 INFO:Starting harvest...
+2025-08-30 13:00:45,703 INFO:Initializing database...
+2025-08-30 13:00:47,708 INFO:Database initialized and table ready.
+2025-08-30 13:00:47,709 INFO:Starting harvest...
+2025-08-30 13:00:47,748 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:00:47,748 INFO:Fetching API data from Australian Bureau of Statistics
+2025-08-30 13:00:48,351 ERROR:Failed to fetch API data: 404 Client Error: Not Found for url: https://data.api.abs.gov.au/rest/data/6202.0
+2025-08-30 13:00:48,353 INFO:No datasets returned for Australian Bureau of Statistics
+2025-08-30 13:00:48,390 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 13:00:48,390 INFO:Fetching API data from Data.gov.au
+2025-08-30 13:00:48,902 ERROR:Failed to fetch API data: 500 Server Error: INTERNAL SERVER ERROR for url: https://data.gov.au/api/3/action/package_search?q=&rows=200?q=&rows=100&start=0
+2025-08-30 13:00:48,904 INFO:No datasets returned for Data.gov.au
+2025-08-30 13:00:48,904 INFO:Harvest completed.
+2025-08-30 13:02:07,781 INFO:Initializing database...
+2025-08-30 13:02:09,741 INFO:Database initialized and table ready.
+2025-08-30 13:02:09,742 ERROR:Failed to read urls.json: [Errno 2] No such file or directory: 'urls.json'
+2025-08-30 13:02:09,742 INFO:Harvest completed.
+2025-08-30 13:08:16,397 INFO:Initializing database...
+2025-08-30 13:08:18,254 INFO:Database initialized and table ready.
+2025-08-30 13:08:18,254 ERROR:Failed to read urls.json: [Errno 2] No such file or directory: 'urls.json'
+2025-08-30 13:08:18,254 INFO:Harvest completed.
+2025-08-30 13:09:23,846 INFO:Initializing database...
+2025-08-30 13:09:25,607 INFO:Database initialized and table ready.
+2025-08-30 13:09:25,607 ERROR:Failed to read urls.json: [Errno 2] No such file or directory: 'urls.json'
+2025-08-30 13:09:25,608 INFO:Harvest completed.
+2025-08-30 13:11:31,675 INFO:Initializing database...
+2025-08-30 13:11:32,895 INFO:Database initialized and table ready.
+2025-08-30 13:11:32,896 INFO:Starting harvest...
+2025-08-30 13:11:32,896 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 13:11:32,935 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:11:32,935 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:11:32,935 INFO:No URL provided for Australian Bureau of Statistics
+2025-08-30 13:15:09,257 INFO:Database initialized and table ready.
+2025-08-30 13:15:09,258 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 13:15:09,294 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:15:09,294 INFO:No URL provided for Australian Bureau of Statistics
+2025-08-30 13:15:09,294 INFO:No datasets returned for Australian Bureau of Statistics
+2025-08-30 13:15:09,295 INFO:Processing Data.gov.au (api)
+2025-08-30 13:15:09,332 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 13:15:09,332 INFO:Fetching API data from Data.gov.au
+2025-08-30 13:15:10,056 ERROR:Failed to fetch API data: Expecting value: line 1 column 1 (char 0)
+2025-08-30 13:15:10,057 INFO:No datasets returned for Data.gov.au
+2025-08-30 13:15:10,058 INFO:Harvest completed.
+2025-08-30 13:16:17,486 INFO:Database initialized and table ready.
+2025-08-30 13:16:17,494 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 13:16:17,532 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:16:17,532 INFO:No URL provided for Australian Bureau of Statistics
+2025-08-30 13:16:17,533 INFO:No datasets returned for Australian Bureau of Statistics
+2025-08-30 13:16:17,533 INFO:Processing Data.gov.au (api)
+2025-08-30 13:16:17,678 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 13:16:17,678 INFO:Fetching API data from Data.gov.au
+2025-08-30 13:16:18,200 ERROR:Failed to fetch API data: 500 Server Error: INTERNAL SERVER ERROR for url: https://data.gov.au/api/3/action/package_search?q=&rows=100&start=0&rows=100&start=0
+2025-08-30 13:16:18,202 INFO:No datasets returned for Data.gov.au
+2025-08-30 13:16:18,202 INFO:Harvest completed.
+2025-08-30 13:17:18,254 INFO:Database initialized and table ready.
+2025-08-30 13:17:18,262 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 13:17:18,299 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:17:18,299 INFO:No URL provided for Australian Bureau of Statistics
+2025-08-30 13:17:18,299 INFO:No datasets returned for Australian Bureau of Statistics
+2025-08-30 13:17:18,300 INFO:Processing Data.gov.au (api)
+2025-08-30 13:17:18,337 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 13:17:18,337 INFO:Fetching API data from Data.gov.au
+2025-08-30 13:19:19,626 INFO:Database initialized and table ready.
+2025-08-30 13:19:19,626 INFO:Starting harvest...
+2025-08-30 13:19:19,627 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 13:19:19,664 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:19:19,664 INFO:Fetching API data from Australian Bureau of Statistics
+2025-08-30 13:19:19,664 WARNING:No URL provided for Australian Bureau of Statistics
+2025-08-30 13:19:19,664 INFO:No datasets returned for Australian Bureau of Statistics
+2025-08-30 13:19:19,664 INFO:Processing Data.gov.au (api)
+2025-08-30 13:19:19,810 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 13:19:19,811 INFO:Fetching API data from Data.gov.au
+2025-08-30 13:19:20,503 INFO:Fetched 100 datasets from Data.gov.au
+2025-08-30 13:19:21,150 INFO:Fetched 200 datasets from Data.gov.au
+2025-08-30 13:19:21,152 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,152 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,152 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,152 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,152 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,152 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,153 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,153 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,153 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,153 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,153 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,153 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,153 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,153 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,154 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,154 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,154 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,154 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,155 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,155 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,155 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,155 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,155 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,155 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,155 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,155 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,156 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,156 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,156 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,156 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,156 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,156 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,156 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,156 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,157 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,157 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,157 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,157 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,157 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,157 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,157 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,157 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,158 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,158 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,158 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,158 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,158 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,158 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,158 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,159 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,159 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,159 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,159 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,159 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,159 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,159 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,160 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,160 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,160 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,160 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,160 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,160 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,161 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,161 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,161 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,161 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,161 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,161 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,161 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,162 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,162 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,162 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,162 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,162 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,162 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,163 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,163 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,163 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,163 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,163 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,163 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,164 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,164 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,164 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,164 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,164 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,164 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,165 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,165 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,165 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,165 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,165 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,165 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,165 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,165 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,166 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,166 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,166 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,166 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,166 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,166 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,166 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,166 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,167 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,167 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,167 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,167 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,167 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,167 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,167 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,168 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,168 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,168 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,168 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,168 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,168 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,168 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,169 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,169 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,169 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,169 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,169 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,169 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,170 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,170 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,170 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,170 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,170 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,170 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,171 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,171 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,171 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,171 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,171 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,171 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,171 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,172 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,172 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,172 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,172 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,172 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,172 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,173 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,173 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,173 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,173 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,173 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,173 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,173 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,173 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,174 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,174 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,174 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,174 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,174 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,174 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,175 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,175 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,175 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,175 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,175 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,175 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,175 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,176 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,176 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,176 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,176 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,176 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,176 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,176 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,177 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,177 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,177 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,177 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,177 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,177 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,177 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,177 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,178 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,178 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,178 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,178 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,178 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,178 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,178 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,179 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,179 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,179 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,179 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,179 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,179 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,180 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,180 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,180 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,180 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,180 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,181 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,181 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,181 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,181 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'source_name'
+2025-08-30 13:19:21,181 INFO:Data.gov.au returned 200 datasets
+2025-08-30 13:19:21,181 INFO:Harvest completed.
+2025-08-30 13:19:21,182 INFO:Harvest completed.
+2025-08-30 13:20:35,936 INFO:Database initialized and table ready.
+2025-08-30 13:20:35,936 INFO:Starting harvest...
+2025-08-30 13:20:35,937 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 13:20:35,976 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:20:35,976 INFO:Fetching API data from Australian Bureau of Statistics
+2025-08-30 13:20:35,976 WARNING:No URL provided for Australian Bureau of Statistics
+2025-08-30 13:20:35,977 INFO:No datasets returned for Australian Bureau of Statistics
+2025-08-30 13:20:35,977 INFO:Processing Data.gov.au (api)
+2025-08-30 13:20:36,015 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 13:20:36,015 INFO:Fetching API data from Data.gov.au
+2025-08-30 13:20:36,644 INFO:Fetched 100 datasets from Data.gov.au
+2025-08-30 13:20:37,137 INFO:Fetched 200 datasets from Data.gov.au
+2025-08-30 13:20:37,176 ERROR:Failed to insert dataset 'Register of Native Title Claims': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,176 INFO:Inserted dataset: Register of Native Title Claims
+2025-08-30 13:20:37,214 ERROR:Failed to insert dataset 'PL 277, QGC WOLEEBEE CREEK 133, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,215 INFO:Inserted dataset: PL 277, QGC WOLEEBEE CREEK 133, WELL COMPLETION REPORT
+2025-08-30 13:20:37,250 ERROR:Failed to insert dataset 'EPM 14642, FERN SPRINGS, CHARTERS TOWERS PROJECT, ANNUAL REPORT FOR PERIOD ENDING 26/6/2006': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,251 INFO:Inserted dataset: EPM 14642, FERN SPRINGS, CHARTERS TOWERS PROJECT, ANNUAL REPORT FOR PERIOD ENDING 26/6/2006
+2025-08-30 13:20:37,286 ERROR:Failed to insert dataset 'ATP 271, RELINQUISHMENT REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,287 INFO:Inserted dataset: ATP 271, RELINQUISHMENT REPORT
+2025-08-30 13:20:37,323 ERROR:Failed to insert dataset 'EPC1429 YARRABEE DATA IN LIEU OF CR 107912 ANNUAL ACTIVITY REPORT FOR PERIOD ENDING 14 JUNE 2018': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,323 INFO:Inserted dataset: EPC1429 YARRABEE DATA IN LIEU OF CR 107912 ANNUAL ACTIVITY REPORT FOR PERIOD ENDING 14 JUNE 2018
+2025-08-30 13:20:37,468 ERROR:Failed to insert dataset 'Wimmera CMA VFRR Referral Layer': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,468 INFO:Inserted dataset: Wimmera CMA VFRR Referral Layer
+2025-08-30 13:20:37,504 ERROR:Failed to insert dataset 'Double Lagoon 1:100000 Geology Map Compilation 2018': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,505 INFO:Inserted dataset: Double Lagoon 1:100000 Geology Map Compilation 2018
+2025-08-30 13:20:37,541 ERROR:Failed to insert dataset 'EPM 3234, SIX MONTHLY REPORT FOR PERIOD 19/3/1986 TO 19/9/1986': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,541 INFO:Inserted dataset: EPM 3234, SIX MONTHLY REPORT FOR PERIOD 19/3/1986 TO 19/9/1986
+2025-08-30 13:20:37,674 ERROR:Failed to insert dataset 'PL 399, QGC POLARIS 174, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,675 INFO:Inserted dataset: PL 399, QGC POLARIS 174, WELL COMPLETION REPORT
+2025-08-30 13:20:37,710 ERROR:Failed to insert dataset 'EPM 25151, PANDANUS CREEK, ANNUAL REPORT FOR PERIOD ENDING 1/12/2015': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,711 INFO:Inserted dataset: EPM 25151, PANDANUS CREEK, ANNUAL REPORT FOR PERIOD ENDING 1/12/2015
+2025-08-30 13:20:37,748 ERROR:Failed to insert dataset '[Superseded] Flood Study — Kedron Brook — Sep 2014': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,749 INFO:Inserted dataset: [Superseded] Flood Study — Kedron Brook — Sep 2014
+2025-08-30 13:20:37,783 ERROR:Failed to insert dataset 'GSQ RECORD 2012/13: MINERALOGY AND PETROGRAPHY OF THE SOUTHERN GALILEE BASIN, QUEENSLAND': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,784 INFO:Inserted dataset: GSQ RECORD 2012/13: MINERALOGY AND PETROGRAPHY OF THE SOUTHERN GALILEE BASIN, QUEENSLAND
+2025-08-30 13:20:37,820 ERROR:Failed to insert dataset 'EPM 18575, CARBO CREEK, ANNUAL REPORT FOR PERIOD ENDING 27/6/2014': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,821 INFO:Inserted dataset: EPM 18575, CARBO CREEK, ANNUAL REPORT FOR PERIOD ENDING 27/6/2014
+2025-08-30 13:20:37,856 ERROR:Failed to insert dataset 'GSQ RECORD 1981/16: IPSWICH COALFIELD, RHONDDA SOUTH, SUPPLEMENTARY DRILLING IN THE COCHRANE SEAM': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,857 INFO:Inserted dataset: GSQ RECORD 1981/16: IPSWICH COALFIELD, RHONDDA SOUTH, SUPPLEMENTARY DRILLING IN THE COCHRANE SEAM
+2025-08-30 13:20:37,894 ERROR:Failed to insert dataset 'Geochemistry data for Block CLON2401': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,894 INFO:Inserted dataset: Geochemistry data for Block CLON2401
+2025-08-30 13:20:37,930 ERROR:Failed to insert dataset 'EPM 10308, HUNTLEY CREEK, ANNUAL/FINAL REPORT FOR PERIOD ENDING 2/1/2002': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,930 INFO:Inserted dataset: EPM 10308, HUNTLEY CREEK, ANNUAL/FINAL REPORT FOR PERIOD ENDING 2/1/2002
+2025-08-30 13:20:37,966 ERROR:Failed to insert dataset 'EPM 2619, HELLHOLE CREEK, FINAL RELINQUISHMENT REPORT, (REPORT NO. 08.2291)': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:37,967 INFO:Inserted dataset: EPM 2619, HELLHOLE CREEK, FINAL RELINQUISHMENT REPORT, (REPORT NO. 08.2291)
+2025-08-30 13:20:38,002 ERROR:Failed to insert dataset 'PL 421, STO SUNNYHOLT 30, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-3': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,002 INFO:Inserted dataset: PL 421, STO SUNNYHOLT 30, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-3
+2025-08-30 13:20:38,038 ERROR:Failed to insert dataset 'EPM 14602, BIG BEND, ANNUAL REPORT FOR PERIOD ENDING 6/4/2007': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,038 INFO:Inserted dataset: EPM 14602, BIG BEND, ANNUAL REPORT FOR PERIOD ENDING 6/4/2007
+2025-08-30 13:20:38,073 ERROR:Failed to insert dataset 'ATP 349, OCA R86 SEISMIC SURVEY, FINAL REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,074 INFO:Inserted dataset: ATP 349, OCA R86 SEISMIC SURVEY, FINAL REPORT
+2025-08-30 13:20:38,208 ERROR:Failed to insert dataset '1072772': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,208 INFO:Inserted dataset: 1072772
+2025-08-30 13:20:38,243 ERROR:Failed to insert dataset 'NO 1 BORE': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,244 INFO:Inserted dataset: NO 1 BORE
+2025-08-30 13:20:38,280 ERROR:Failed to insert dataset 'City Plan 2014 — LGIP — PFTI — Parks and Community Facilities — Future — Park embellishment — specific location': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,280 INFO:Inserted dataset: City Plan 2014 — LGIP — PFTI — Parks and Community Facilities — Future — Park embellishment — specific location
+2025-08-30 13:20:38,316 ERROR:Failed to insert dataset 'DENISON NS66': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,316 INFO:Inserted dataset: DENISON NS66
+2025-08-30 13:20:38,464 ERROR:Failed to insert dataset 'EPM 13076, SILVERWOOD, ANNUAL/FINAL REPORT FOR PERIOD 4/10/2001 TO 3/10/2002': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,464 INFO:Inserted dataset: EPM 13076, SILVERWOOD, ANNUAL/FINAL REPORT FOR PERIOD 4/10/2001 TO 3/10/2002
+2025-08-30 13:20:38,500 ERROR:Failed to insert dataset 'GSQ REPORT 51, COAL RESOURCES, BARALABA-MOURA-KIANGA-THEODORE COALFIELD, BANANA CREEK AREA': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,501 INFO:Inserted dataset: GSQ REPORT 51, COAL RESOURCES, BARALABA-MOURA-KIANGA-THEODORE COALFIELD, BANANA CREEK AREA
+2025-08-30 13:20:38,537 ERROR:Failed to insert dataset 'REEDY CREEK 205': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,538 INFO:Inserted dataset: REEDY CREEK 205
+2025-08-30 13:20:38,684 ERROR:Failed to insert dataset 'EPM 11370, VERDE TINTO, ANNUAL/FINAL REPORT FOR PERIOD 24/10/2001 TO 23/10/2002': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,684 INFO:Inserted dataset: EPM 11370, VERDE TINTO, ANNUAL/FINAL REPORT FOR PERIOD 24/10/2001 TO 23/10/2002
+2025-08-30 13:20:38,720 ERROR:Failed to insert dataset 'City Plan 2014 — LGIP — PFTI — Stormwater — Future — Natural channel lines': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,720 INFO:Inserted dataset: City Plan 2014 — LGIP — PFTI — Stormwater — Future — Natural channel lines
+2025-08-30 13:20:38,755 ERROR:Failed to insert dataset 'NO.4': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,756 INFO:Inserted dataset: NO.4
+2025-08-30 13:20:38,792 ERROR:Failed to insert dataset 'Imbil 40 Chains To An Inch Mine Map Provisional 1941': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,792 INFO:Inserted dataset: Imbil 40 Chains To An Inch Mine Map Provisional 1941
+2025-08-30 13:20:38,827 ERROR:Failed to insert dataset 'EPM 19437, LITTLE WATSON CREEK, ANNUAL REPORT FOR PERIOD ENDING 14/4/2019': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,827 INFO:Inserted dataset: EPM 19437, LITTLE WATSON CREEK, ANNUAL REPORT FOR PERIOD ENDING 14/4/2019
+2025-08-30 13:20:38,972 ERROR:Failed to insert dataset 'NO.4': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:38,973 INFO:Inserted dataset: NO.4
+2025-08-30 13:20:39,008 ERROR:Failed to insert dataset 'EPC 253, HAVILAH, REPORT ON AREA RELINQUISHED 19/2/1980': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,008 INFO:Inserted dataset: EPC 253, HAVILAH, REPORT ON AREA RELINQUISHED 19/2/1980
+2025-08-30 13:20:39,044 ERROR:Failed to insert dataset 'EPM 4471, HILLGROVE, SIX MONTHLY REPORT FOR PERIOD ENDING 3/5/1987, (QB 8/87)': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,045 INFO:Inserted dataset: EPM 4471, HILLGROVE, SIX MONTHLY REPORT FOR PERIOD ENDING 3/5/1987, (QB 8/87)
+2025-08-30 13:20:39,080 ERROR:Failed to insert dataset 'EPC 868, ANNUAL REPORT FOR PERIOD ENDING 17/2/2007': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,081 INFO:Inserted dataset: EPC 868, ANNUAL REPORT FOR PERIOD ENDING 17/2/2007
+2025-08-30 13:20:39,116 ERROR:Failed to insert dataset 'EPM 4774, CLONCURRY, SIX MONTHLY REPORT FOR PERIOD ENDING 1/6/1990': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,117 INFO:Inserted dataset: EPM 4774, CLONCURRY, SIX MONTHLY REPORT FOR PERIOD ENDING 1/6/1990
+2025-08-30 13:20:39,261 ERROR:Failed to insert dataset 'PL471 HORSE CREEK 16 HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,262 INFO:Inserted dataset: PL471 HORSE CREEK 16 HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT
+2025-08-30 13:20:39,298 ERROR:Failed to insert dataset 'PL 179, QGC ARGYLE 23, WELL PROPOSAL REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,299 INFO:Inserted dataset: PL 179, QGC ARGYLE 23, WELL PROPOSAL REPORT
+2025-08-30 13:20:39,438 ERROR:Failed to insert dataset 'EPC 1655, CHINCHILLA SOUTH, ANNUAL REPORT FOR PERIOD ENDING 16/8/2010': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,438 INFO:Inserted dataset: EPC 1655, CHINCHILLA SOUTH, ANNUAL REPORT FOR PERIOD ENDING 16/8/2010
+2025-08-30 13:20:39,581 ERROR:Failed to insert dataset 'Climate progress filterable actions': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,582 INFO:Inserted dataset: Climate progress filterable actions
+2025-08-30 13:20:39,725 ERROR:Failed to insert dataset 'TAYLOR 14': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,726 INFO:Inserted dataset: TAYLOR 14
+2025-08-30 13:20:39,761 ERROR:Failed to insert dataset 'EPM 17762, TREKELANO, ANNUAL REPORT FOR PERIOD 20/10/2012 TO 19/10/2013': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,761 INFO:Inserted dataset: EPM 17762, TREKELANO, ANNUAL REPORT FOR PERIOD 20/10/2012 TO 19/10/2013
+2025-08-30 13:20:39,797 ERROR:Failed to insert dataset 'Geochemistry data for Block CLON3245': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,797 INFO:Inserted dataset: Geochemistry data for Block CLON3245
+2025-08-30 13:20:39,833 ERROR:Failed to insert dataset 'EPM 1283, JULIA CREEK PROSPECT, REPORT ON THE 1974 DRILLING PROGRAMME': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,833 INFO:Inserted dataset: EPM 1283, JULIA CREEK PROSPECT, REPORT ON THE 1974 DRILLING PROGRAMME
+2025-08-30 13:20:39,868 ERROR:Failed to insert dataset 'ATP 668, OER BETA 1, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,869 INFO:Inserted dataset: ATP 668, OER BETA 1, WELL COMPLETION REPORT
+2025-08-30 13:20:39,904 ERROR:Failed to insert dataset 'GALILEE NS5281': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,905 INFO:Inserted dataset: GALILEE NS5281
+2025-08-30 13:20:39,940 ERROR:Failed to insert dataset 'DRUMMOND BASIN PROJECT - PICCADILLY (WMC #77)': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,941 INFO:Inserted dataset: DRUMMOND BASIN PROJECT - PICCADILLY (WMC #77)
+2025-08-30 13:20:39,977 ERROR:Failed to insert dataset 'EPM 19173, WELCOME CREEK/LE PEROUSE, ANNUAL REPORT FOR PERIOD ENDING 25/7/2016': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:39,977 INFO:Inserted dataset: EPM 19173, WELCOME CREEK/LE PEROUSE, ANNUAL REPORT FOR PERIOD ENDING 25/7/2016
+2025-08-30 13:20:40,013 ERROR:Failed to insert dataset 'EPC 1156, JERICHO SOUTH, ANNUAL REPORT FOR PERIOD ENDING 20/10/2013': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:40,014 INFO:Inserted dataset: EPC 1156, JERICHO SOUTH, ANNUAL REPORT FOR PERIOD ENDING 20/10/2013
+2025-08-30 13:20:40,049 ERROR:Failed to insert dataset 'ATP 259, SSL JARRAR 2, WELL PROPOSAL REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:40,050 INFO:Inserted dataset: ATP 259, SSL JARRAR 2, WELL PROPOSAL REPORT
+2025-08-30 13:20:40,085 ERROR:Failed to insert dataset 'EPM 26155, MOUNT WYATT PROJECT, ANNUAL REPORT FOR PERIOD ENDING 20/11/2018': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:40,085 INFO:Inserted dataset: EPM 26155, MOUNT WYATT PROJECT, ANNUAL REPORT FOR PERIOD ENDING 20/11/2018
+2025-08-30 13:20:40,121 ERROR:Failed to insert dataset 'EPM 16050, WOLFRAM CAMP SOUTH, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 21/2/2012': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:40,121 INFO:Inserted dataset: EPM 16050, WOLFRAM CAMP SOUTH, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 21/2/2012
+2025-08-30 13:20:40,157 ERROR:Failed to insert dataset 'GALILEE NS791': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:40,157 INFO:Inserted dataset: GALILEE NS791
+2025-08-30 13:20:40,296 ERROR:Failed to insert dataset 'PL 420, STO AC18-66 1, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-3': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:40,297 INFO:Inserted dataset: PL 420, STO AC18-66 1, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-3
+2025-08-30 13:20:40,332 ERROR:Failed to insert dataset 'EPC 208, 218, OAKY CREEK PROJECT, SIX MONTHLY REPORT FOR PERIOD ENDING 19/1/1982': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:40,333 INFO:Inserted dataset: EPC 208, 218, OAKY CREEK PROJECT, SIX MONTHLY REPORT FOR PERIOD ENDING 19/1/1982
+2025-08-30 13:20:40,472 ERROR:Failed to insert dataset 'TICKALARA 2': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:40,473 INFO:Inserted dataset: TICKALARA 2
+2025-08-30 13:20:40,508 ERROR:Failed to insert dataset 'ATP 550, PARTIAL RELINQUISHMENT REPORT FOR THOSE NINE BLOCKS RELINQUISHED ON 19/10/1999': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:40,508 INFO:Inserted dataset: ATP 550, PARTIAL RELINQUISHMENT REPORT FOR THOSE NINE BLOCKS RELINQUISHED ON 19/10/1999
+2025-08-30 13:20:40,648 ERROR:Failed to insert dataset 'EPM 2149, SIX MONTHLY REPORT FOR PERIOD ENDING 21/1/1980': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:40,649 INFO:Inserted dataset: EPM 2149, SIX MONTHLY REPORT FOR PERIOD ENDING 21/1/1980
+2025-08-30 13:20:40,792 ERROR:Failed to insert dataset 'PFL 26, ANNUAL REPORT FOR PERIOD ENDING 23/12/2019': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:40,793 INFO:Inserted dataset: PFL 26, ANNUAL REPORT FOR PERIOD ENDING 23/12/2019
+2025-08-30 13:20:40,937 ERROR:Failed to insert dataset 'PETER?S WELL': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:40,937 INFO:Inserted dataset: PETER?S WELL
+2025-08-30 13:20:40,974 ERROR:Failed to insert dataset 'PL 273, QGC DAVID 110, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:40,974 INFO:Inserted dataset: PL 273, QGC DAVID 110, WELL COMPLETION REPORT
+2025-08-30 13:20:41,113 ERROR:Failed to insert dataset 'Unclaimed monies': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,114 INFO:Inserted dataset: Unclaimed monies
+2025-08-30 13:20:41,149 ERROR:Failed to insert dataset 'North Scotia 6': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,149 INFO:Inserted dataset: North Scotia 6
+2025-08-30 13:20:41,186 ERROR:Failed to insert dataset 'GSQ RECORD 2017/04: GSQ EULO 2 BOREHOLE COMPLETION RECORD, SOUTHERN THOMSON PROJECT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,186 INFO:Inserted dataset: GSQ RECORD 2017/04: GSQ EULO 2 BOREHOLE COMPLETION RECORD, SOUTHERN THOMSON PROJECT
+2025-08-30 13:20:41,221 ERROR:Failed to insert dataset 'EPM 2385, ANNUAL/EXPENDITURE REPORT FOR PERIOD ENDING 1/4/1981 (FINAL REPORT)': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,221 INFO:Inserted dataset: EPM 2385, ANNUAL/EXPENDITURE REPORT FOR PERIOD ENDING 1/4/1981 (FINAL REPORT)
+2025-08-30 13:20:41,258 ERROR:Failed to insert dataset 'DURHAM RANCH 153': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,258 INFO:Inserted dataset: DURHAM RANCH 153
+2025-08-30 13:20:41,294 ERROR:Failed to insert dataset 'EPM 26220, CARSE CREEK, ANNUAL REPORT FOR PERIOD ENDING 18/12/2017': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,295 INFO:Inserted dataset: EPM 26220, CARSE CREEK, ANNUAL REPORT FOR PERIOD ENDING 18/12/2017
+2025-08-30 13:20:41,331 ERROR:Failed to insert dataset 'Kangaroo Hills 1:100000 Geology Map Compilation 2006': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,332 INFO:Inserted dataset: Kangaroo Hills 1:100000 Geology Map Compilation 2006
+2025-08-30 13:20:41,367 ERROR:Failed to insert dataset 'PL 201, QGC BERWYNDALE SOUTH 54, WELL PROPOSAL REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,367 INFO:Inserted dataset: PL 201, QGC BERWYNDALE SOUTH 54, WELL PROPOSAL REPORT
+2025-08-30 13:20:41,402 ERROR:Failed to insert dataset 'NO.1': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,403 INFO:Inserted dataset: NO.1
+2025-08-30 13:20:41,438 ERROR:Failed to insert dataset 'ATP 119, ARCTURUS FIELD STUDY': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,439 INFO:Inserted dataset: ATP 119, ARCTURUS FIELD STUDY
+2025-08-30 13:20:41,474 ERROR:Failed to insert dataset 'CONDABRI NORTH 360': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,474 INFO:Inserted dataset: CONDABRI NORTH 360
+2025-08-30 13:20:41,535 ERROR:Failed to insert dataset 'PLANTAGENET 41': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,535 INFO:Inserted dataset: PLANTAGENET 41
+2025-08-30 13:20:41,577 ERROR:Failed to insert dataset 'Gilberton 1:100000 Mineral Occurrence Map Compilation 2018': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,578 INFO:Inserted dataset: Gilberton 1:100000 Mineral Occurrence Map Compilation 2018
+2025-08-30 13:20:41,719 ERROR:Failed to insert dataset 'EPM 584, DAWES RANGE, REPORTFOR PERIOD ENDING 31/12/1969': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,720 INFO:Inserted dataset: EPM 584, DAWES RANGE, REPORTFOR PERIOD ENDING 31/12/1969
+2025-08-30 13:20:41,865 ERROR:Failed to insert dataset 'PHJ13': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,865 INFO:Inserted dataset: PHJ13
+2025-08-30 13:20:41,900 ERROR:Failed to insert dataset 'EPC 1955, EAST WANDOAN PROJECT, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 29/1/2019': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,900 INFO:Inserted dataset: EPC 1955, EAST WANDOAN PROJECT, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 29/1/2019
+2025-08-30 13:20:41,936 ERROR:Failed to insert dataset 'PL 279, QGC GLENDOWER 194, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:41,937 INFO:Inserted dataset: PL 279, QGC GLENDOWER 194, WELL COMPLETION REPORT
+2025-08-30 13:20:42,070 ERROR:Failed to insert dataset 'HARRY 183': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,070 INFO:Inserted dataset: HARRY 183
+2025-08-30 13:20:42,214 ERROR:Failed to insert dataset 'EPM 4023, ALPHA OIL SHALE, COMBINED SIX-MONTHLY/FINAL REPORT FOR PERIOD 20/12/1994 TO 15/4/1996': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,214 INFO:Inserted dataset: EPM 4023, ALPHA OIL SHALE, COMBINED SIX-MONTHLY/FINAL REPORT FOR PERIOD 20/12/1994 TO 15/4/1996
+2025-08-30 13:20:42,249 ERROR:Failed to insert dataset 'EPM 193, TECHNICAL REPORT NO. 8, THE RAWBELLE PROSPECTING PROGRAMME, AND TECHNICAL REPORT NO. 10 OPERATION CAVIARE': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,249 INFO:Inserted dataset: EPM 193, TECHNICAL REPORT NO. 8, THE RAWBELLE PROSPECTING PROGRAMME, AND TECHNICAL REPORT NO. 10 OPERATION CAVIARE
+2025-08-30 13:20:42,298 ERROR:Failed to insert dataset 'ATP 788, OEA DUKE 19, WELL PRODUCTION EXTENDED TESTING REPORT FOR PERIOD 9/8/2013 TO 8/8/2014': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,298 INFO:Inserted dataset: ATP 788, OEA DUKE 19, WELL PRODUCTION EXTENDED TESTING REPORT FOR PERIOD 9/8/2013 TO 8/8/2014
+2025-08-30 13:20:42,347 ERROR:Failed to insert dataset 'EPM 4948 (MOUNT JENNIFER), 4949 (TERMITE), COMBINED REPORT FOR AREA RELINQUISHED 21/9/1989': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,347 INFO:Inserted dataset: EPM 4948 (MOUNT JENNIFER), 4949 (TERMITE), COMBINED REPORT FOR AREA RELINQUISHED 21/9/1989
+2025-08-30 13:20:42,389 ERROR:Failed to insert dataset '1073044': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,389 INFO:Inserted dataset: 1073044
+2025-08-30 13:20:42,430 ERROR:Failed to insert dataset 'WAAR WAAR 17': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,431 INFO:Inserted dataset: WAAR WAAR 17
+2025-08-30 13:20:42,568 ERROR:Failed to insert dataset 'EPC 2131, TULLAWARRA, ANNUAL REPORT FOR PERIOD ENDING 22/4/2013': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,569 INFO:Inserted dataset: EPC 2131, TULLAWARRA, ANNUAL REPORT FOR PERIOD ENDING 22/4/2013
+2025-08-30 13:20:42,605 ERROR:Failed to insert dataset 'ATP 1103, AEL PD 101A, WELL ABANDONMENT REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,606 INFO:Inserted dataset: ATP 1103, AEL PD 101A, WELL ABANDONMENT REPORT
+2025-08-30 13:20:42,644 ERROR:Failed to insert dataset 'WAROOBY SOUTH 3': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,644 INFO:Inserted dataset: WAROOBY SOUTH 3
+2025-08-30 13:20:42,679 ERROR:Failed to insert dataset 'EPM 6467, WONDAI, ANNUAL REPORT FOR PERIOD ENDING 23/7/1997': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,680 INFO:Inserted dataset: EPM 6467, WONDAI, ANNUAL REPORT FOR PERIOD ENDING 23/7/1997
+2025-08-30 13:20:42,715 ERROR:Failed to insert dataset 'EPM 7009, SPYGLASS, ANNUAL REPORT FOR PERIOD ENDING 1/3/1992': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,716 INFO:Inserted dataset: EPM 7009, SPYGLASS, ANNUAL REPORT FOR PERIOD ENDING 1/3/1992
+2025-08-30 13:20:42,854 ERROR:Failed to insert dataset 'EPM 25997, PETROGOLD, ANNUAL REPORT FOR PERIOD ENDING 23/12/2017': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,855 INFO:Inserted dataset: EPM 25997, PETROGOLD, ANNUAL REPORT FOR PERIOD ENDING 23/12/2017
+2025-08-30 13:20:42,891 ERROR:Failed to insert dataset 'PL 179, QGC ARGYLE 175, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,891 INFO:Inserted dataset: PL 179, QGC ARGYLE 175, WELL COMPLETION REPORT
+2025-08-30 13:20:42,926 ERROR:Failed to insert dataset 'RUBYJO 109': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,927 INFO:Inserted dataset: RUBYJO 109
+2025-08-30 13:20:42,963 ERROR:Failed to insert dataset 'EPM 18566, AUBURN, PARTIAL RELINQUISHMENT REPORT FOR PERIOD 12/10/2010 TO 11/10/2012': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:42,963 INFO:Inserted dataset: EPM 18566, AUBURN, PARTIAL RELINQUISHMENT REPORT FOR PERIOD 12/10/2010 TO 11/10/2012
+2025-08-30 13:20:42,999 ERROR:Failed to insert dataset '32568': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,000 INFO:Inserted dataset: 32568
+2025-08-30 13:20:43,035 ERROR:Failed to insert dataset 'PL 265, OER CONDABRI 206, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,036 INFO:Inserted dataset: PL 265, OER CONDABRI 206, WELL COMPLETION REPORT
+2025-08-30 13:20:43,070 ERROR:Failed to insert dataset 'EPM 1448, SHELBURNE BAY, FINAL REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,071 INFO:Inserted dataset: EPM 1448, SHELBURNE BAY, FINAL REPORT
+2025-08-30 13:20:43,108 ERROR:Failed to insert dataset 'Fair trading court outcomes': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,108 INFO:Inserted dataset: Fair trading court outcomes
+2025-08-30 13:20:43,143 ERROR:Failed to insert dataset 'RM90-122-1': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,144 INFO:Inserted dataset: RM90-122-1
+2025-08-30 13:20:43,288 ERROR:Failed to insert dataset 'KARUMBA KASO_0011_1': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,289 INFO:Inserted dataset: KARUMBA KASO_0011_1
+2025-08-30 13:20:43,326 ERROR:Failed to insert dataset 'ATP 259, SSL MOOKOO 1, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,326 INFO:Inserted dataset: ATP 259, SSL MOOKOO 1, WELL COMPLETION REPORT
+2025-08-30 13:20:43,364 ERROR:Failed to insert dataset 'Geochemistry data for Block CLER2160': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,364 INFO:Inserted dataset: Geochemistry data for Block CLER2160
+2025-08-30 13:20:43,400 ERROR:Failed to insert dataset 'EPM 16901, COLLINSVILLE, ANNUAL/PARTIAL RELINQUISHMENT REPORT FOR TWO YEAR PERIOD ENDING 6/7/2012': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,400 INFO:Inserted dataset: EPM 16901, COLLINSVILLE, ANNUAL/PARTIAL RELINQUISHMENT REPORT FOR TWO YEAR PERIOD ENDING 6/7/2012
+2025-08-30 13:20:43,437 ERROR:Failed to insert dataset 'Geochemistry data for Block TOWN440': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,437 INFO:Inserted dataset: Geochemistry data for Block TOWN440
+2025-08-30 13:20:43,472 ERROR:Failed to insert dataset 'PL 265, AUS CONDABRI 68, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-12': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,473 INFO:Inserted dataset: PL 265, AUS CONDABRI 68, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-12
+2025-08-30 13:20:43,622 ERROR:Failed to insert dataset '40330': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,622 INFO:Inserted dataset: 40330
+2025-08-30 13:20:43,658 ERROR:Failed to insert dataset 'GALILEE NS2226': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,658 INFO:Inserted dataset: GALILEE NS2226
+2025-08-30 13:20:43,797 ERROR:Failed to insert dataset 'CAIRNS COUNTY NS497': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,797 INFO:Inserted dataset: CAIRNS COUNTY NS497
+2025-08-30 13:20:43,941 ERROR:Failed to insert dataset 'EPM 4118, SIX MONTHLY REPORT FOR PERIOD ENDING 17/10/1988, AND FINAL REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,942 INFO:Inserted dataset: EPM 4118, SIX MONTHLY REPORT FOR PERIOD ENDING 17/10/1988, AND FINAL REPORT
+2025-08-30 13:20:43,977 ERROR:Failed to insert dataset 'ATP 692, AUS TALINGA 3, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:43,977 INFO:Inserted dataset: ATP 692, AUS TALINGA 3, WELL COMPLETION REPORT
+2025-08-30 13:20:44,013 ERROR:Failed to insert dataset 'East Haldon Sheet 2 40 Chains To An Inch Mine Map Provisional 1963': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,013 INFO:Inserted dataset: East Haldon Sheet 2 40 Chains To An Inch Mine Map Provisional 1963
+2025-08-30 13:20:44,049 ERROR:Failed to insert dataset 'MDL 381, WINDERMERE, ANNUAL REPORT FOR PERIOD ENDING 31/8/2011': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,049 INFO:Inserted dataset: MDL 381, WINDERMERE, ANNUAL REPORT FOR PERIOD ENDING 31/8/2011
+2025-08-30 13:20:44,084 ERROR:Failed to insert dataset 'EPM 16297, JESSIEVALE, CLONCURRY PROJECT, ANNUAL REPORT FOR PERIOD ENDING 8/3/2011': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,084 INFO:Inserted dataset: EPM 16297, JESSIEVALE, CLONCURRY PROJECT, ANNUAL REPORT FOR PERIOD ENDING 8/3/2011
+2025-08-30 13:20:44,120 ERROR:Failed to insert dataset 'EPM 15902, MOUNT COOLON, ANNUAL REPORT FOR PERIOD ENDING 12/6/2010': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,120 INFO:Inserted dataset: EPM 15902, MOUNT COOLON, ANNUAL REPORT FOR PERIOD ENDING 12/6/2010
+2025-08-30 13:20:44,155 ERROR:Failed to insert dataset 'EPC 2055, MIMOSA, ANNUAL REPORT FOR PERIOD ENDING 11/6/2017': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,156 INFO:Inserted dataset: EPC 2055, MIMOSA, ANNUAL REPORT FOR PERIOD ENDING 11/6/2017
+2025-08-30 13:20:44,192 ERROR:Failed to insert dataset 'ATP 259, SSL COOK 4, WELL PROPOSAL REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,193 INFO:Inserted dataset: ATP 259, SSL COOK 4, WELL PROPOSAL REPORT
+2025-08-30 13:20:44,228 ERROR:Failed to insert dataset 'TIPTON 192': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,229 INFO:Inserted dataset: TIPTON 192
+2025-08-30 13:20:44,265 ERROR:Failed to insert dataset 'ATP 708, SSL MOUNT EDEN 1, WELL PROPOSAL REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,265 INFO:Inserted dataset: ATP 708, SSL MOUNT EDEN 1, WELL PROPOSAL REPORT
+2025-08-30 13:20:44,301 ERROR:Failed to insert dataset '11698': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,301 INFO:Inserted dataset: 11698
+2025-08-30 13:20:44,339 ERROR:Failed to insert dataset 'EPM 14909, MOUNT CHALMERS NORTH PROJECT, ANNUAL REPORT FOR PERIOD ENDING 13/3/2007': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,339 INFO:Inserted dataset: EPM 14909, MOUNT CHALMERS NORTH PROJECT, ANNUAL REPORT FOR PERIOD ENDING 13/3/2007
+2025-08-30 13:20:44,374 ERROR:Failed to insert dataset 'ATP 663, AUS WAAR WAAR 11, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,375 INFO:Inserted dataset: ATP 663, AUS WAAR WAAR 11, WELL COMPLETION REPORT
+2025-08-30 13:20:44,410 ERROR:Failed to insert dataset 'EPM 14812, SHANTY CREEK, FINAL REPORT FOR PERIOD ENDING 17/9/2008': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,410 INFO:Inserted dataset: EPM 14812, SHANTY CREEK, FINAL REPORT FOR PERIOD ENDING 17/9/2008
+2025-08-30 13:20:44,546 ERROR:Failed to insert dataset 'EPC 919, GOOMBUNGEE, ACLAND PROJECT AREA, ANNUAL REPORT FOR PERIOD ENDING 3/3/2016': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,546 INFO:Inserted dataset: EPC 919, GOOMBUNGEE, ACLAND PROJECT AREA, ANNUAL REPORT FOR PERIOD ENDING 3/3/2016
+2025-08-30 13:20:44,691 ERROR:Failed to insert dataset 'EPM 18170, NATIVE CAT RANGE, ANNUAL REPORT FOR PERIOD ENDING 16/12/2010': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,691 INFO:Inserted dataset: EPM 18170, NATIVE CAT RANGE, ANNUAL REPORT FOR PERIOD ENDING 16/12/2010
+2025-08-30 13:20:44,726 ERROR:Failed to insert dataset 'ATP 259, SSL KARWIN 1ST, WELL PROPOSAL REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,726 INFO:Inserted dataset: ATP 259, SSL KARWIN 1ST, WELL PROPOSAL REPORT
+2025-08-30 13:20:44,762 ERROR:Failed to insert dataset 'MOUNT GORDON/ELAINE MARY QUESTEM': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,763 INFO:Inserted dataset: MOUNT GORDON/ELAINE MARY QUESTEM
+2025-08-30 13:20:44,798 ERROR:Failed to insert dataset 'GSQ RECORD 1978/12: MICROFLORAL ASSEMBLAGES FROM GSQ EDDYSTONE 1': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,799 INFO:Inserted dataset: GSQ RECORD 1978/12: MICROFLORAL ASSEMBLAGES FROM GSQ EDDYSTONE 1
+2025-08-30 13:20:44,835 ERROR:Failed to insert dataset 'EPM 3829, WESTMORELAND, FINAL REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,835 INFO:Inserted dataset: EPM 3829, WESTMORELAND, FINAL REPORT
+2025-08-30 13:20:44,870 ERROR:Failed to insert dataset 'EPM 3215, 3436, MDL 177, STUART PROJECT, COMBINED ANNUAL REPORT FOR PERIOD 1/11/2004 TO 31/10/2005': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:44,870 INFO:Inserted dataset: EPM 3215, 3436, MDL 177, STUART PROJECT, COMBINED ANNUAL REPORT FOR PERIOD 1/11/2004 TO 31/10/2005
+2025-08-30 13:20:45,010 ERROR:Failed to insert dataset 'FAIRVIEW 275': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:45,011 INFO:Inserted dataset: FAIRVIEW 275
+2025-08-30 13:20:45,046 ERROR:Failed to insert dataset '28315': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:45,047 INFO:Inserted dataset: 28315
+2025-08-30 13:20:45,083 ERROR:Failed to insert dataset 'SBS queue monthly call centre enquiries': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:45,083 INFO:Inserted dataset: SBS queue monthly call centre enquiries
+2025-08-30 13:20:45,118 ERROR:Failed to insert dataset 'ATP 648, QGC SEAN 4, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:45,119 INFO:Inserted dataset: ATP 648, QGC SEAN 4, WELL COMPLETION REPORT
+2025-08-30 13:20:45,265 ERROR:Failed to insert dataset 'KOGAN NORTH 22': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:45,265 INFO:Inserted dataset: KOGAN NORTH 22
+2025-08-30 13:20:45,406 ERROR:Failed to insert dataset 'EPM 16034, WOLFGANG CREEK SOUTH, CLERMONT PROJECT, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 18/6/2009': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:45,407 INFO:Inserted dataset: EPM 16034, WOLFGANG CREEK SOUTH, CLERMONT PROJECT, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 18/6/2009
+2025-08-30 13:20:45,443 ERROR:Failed to insert dataset '82': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:45,443 INFO:Inserted dataset: 82
+2025-08-30 13:20:45,583 ERROR:Failed to insert dataset 'PL 267, OEU CONDABRI NORTH 163, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:45,583 INFO:Inserted dataset: PL 267, OEU CONDABRI NORTH 163, WELL COMPLETION REPORT
+2025-08-30 13:20:45,619 ERROR:Failed to insert dataset 'HOUSE(OLD SOUTHERN BORE)': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:20:45,619 INFO:Inserted dataset: HOUSE(OLD SOUTHERN BORE)
+2025-08-30 13:21:21,967 INFO:Database initialized and table ready.
+2025-08-30 13:21:21,967 INFO:Starting harvest...
+2025-08-30 13:21:21,968 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 13:21:22,006 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:21:22,006 INFO:Fetching API data from Australian Bureau of Statistics
+2025-08-30 13:21:22,006 WARNING:No URL provided for Australian Bureau of Statistics
+2025-08-30 13:21:22,006 INFO:No datasets returned for Australian Bureau of Statistics
+2025-08-30 13:21:22,006 INFO:Processing Data.gov.au (api)
+2025-08-30 13:21:22,043 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 13:21:22,043 INFO:Fetching API data from Data.gov.au
+2025-08-30 13:21:22,664 INFO:Fetched 100 datasets from Data.gov.au
+2025-08-30 13:21:23,185 INFO:Fetched 200 datasets from Data.gov.au
+2025-08-30 13:21:23,223 ERROR:Failed to insert dataset 'Register of Native Title Claims': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:23,223 INFO:Inserted dataset: Register of Native Title Claims
+2025-08-30 13:21:23,259 ERROR:Failed to insert dataset 'ATP 271, RELINQUISHMENT REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:23,259 INFO:Inserted dataset: ATP 271, RELINQUISHMENT REPORT
+2025-08-30 13:21:23,295 ERROR:Failed to insert dataset 'EPC1429 YARRABEE DATA IN LIEU OF CR 107912 ANNUAL ACTIVITY REPORT FOR PERIOD ENDING 14 JUNE 2018': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:23,295 INFO:Inserted dataset: EPC1429 YARRABEE DATA IN LIEU OF CR 107912 ANNUAL ACTIVITY REPORT FOR PERIOD ENDING 14 JUNE 2018
+2025-08-30 13:21:23,430 ERROR:Failed to insert dataset 'Wimmera CMA VFRR Referral Layer': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:23,430 INFO:Inserted dataset: Wimmera CMA VFRR Referral Layer
+2025-08-30 13:21:23,466 ERROR:Failed to insert dataset 'Double Lagoon 1:100000 Geology Map Compilation 2018': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:23,467 INFO:Inserted dataset: Double Lagoon 1:100000 Geology Map Compilation 2018
+2025-08-30 13:21:23,604 ERROR:Failed to insert dataset 'EPM 3234, SIX MONTHLY REPORT FOR PERIOD 19/3/1986 TO 19/9/1986': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:23,604 INFO:Inserted dataset: EPM 3234, SIX MONTHLY REPORT FOR PERIOD 19/3/1986 TO 19/9/1986
+2025-08-30 13:21:23,640 ERROR:Failed to insert dataset 'PL 399, QGC POLARIS 174, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:23,640 INFO:Inserted dataset: PL 399, QGC POLARIS 174, WELL COMPLETION REPORT
+2025-08-30 13:21:23,780 ERROR:Failed to insert dataset 'EPM 25151, PANDANUS CREEK, ANNUAL REPORT FOR PERIOD ENDING 1/12/2015': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:23,780 INFO:Inserted dataset: EPM 25151, PANDANUS CREEK, ANNUAL REPORT FOR PERIOD ENDING 1/12/2015
+2025-08-30 13:21:23,816 ERROR:Failed to insert dataset '[Superseded] Flood Study — Kedron Brook — Sep 2014': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:23,817 INFO:Inserted dataset: [Superseded] Flood Study — Kedron Brook — Sep 2014
+2025-08-30 13:21:23,852 ERROR:Failed to insert dataset 'GSQ RECORD 2012/13: MINERALOGY AND PETROGRAPHY OF THE SOUTHERN GALILEE BASIN, QUEENSLAND': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:23,853 INFO:Inserted dataset: GSQ RECORD 2012/13: MINERALOGY AND PETROGRAPHY OF THE SOUTHERN GALILEE BASIN, QUEENSLAND
+2025-08-30 13:21:23,888 ERROR:Failed to insert dataset 'EPM 18575, CARBO CREEK, ANNUAL REPORT FOR PERIOD ENDING 27/6/2014': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:23,889 INFO:Inserted dataset: EPM 18575, CARBO CREEK, ANNUAL REPORT FOR PERIOD ENDING 27/6/2014
+2025-08-30 13:21:23,924 ERROR:Failed to insert dataset 'GSQ RECORD 1981/16: IPSWICH COALFIELD, RHONDDA SOUTH, SUPPLEMENTARY DRILLING IN THE COCHRANE SEAM': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:23,925 INFO:Inserted dataset: GSQ RECORD 1981/16: IPSWICH COALFIELD, RHONDDA SOUTH, SUPPLEMENTARY DRILLING IN THE COCHRANE SEAM
+2025-08-30 13:21:24,069 ERROR:Failed to insert dataset 'Geochemistry data for Block CLON2401': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:24,069 INFO:Inserted dataset: Geochemistry data for Block CLON2401
+2025-08-30 13:21:24,214 ERROR:Failed to insert dataset 'EPM 10308, HUNTLEY CREEK, ANNUAL/FINAL REPORT FOR PERIOD ENDING 2/1/2002': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:24,214 INFO:Inserted dataset: EPM 10308, HUNTLEY CREEK, ANNUAL/FINAL REPORT FOR PERIOD ENDING 2/1/2002
+2025-08-30 13:21:24,251 ERROR:Failed to insert dataset 'EPM 2619, HELLHOLE CREEK, FINAL RELINQUISHMENT REPORT, (REPORT NO. 08.2291)': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:24,252 INFO:Inserted dataset: EPM 2619, HELLHOLE CREEK, FINAL RELINQUISHMENT REPORT, (REPORT NO. 08.2291)
+2025-08-30 13:21:24,287 ERROR:Failed to insert dataset 'PL 421, STO SUNNYHOLT 30, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-3': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:24,287 INFO:Inserted dataset: PL 421, STO SUNNYHOLT 30, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-3
+2025-08-30 13:21:24,323 ERROR:Failed to insert dataset 'EPM 14602, BIG BEND, ANNUAL REPORT FOR PERIOD ENDING 6/4/2007': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:24,324 INFO:Inserted dataset: EPM 14602, BIG BEND, ANNUAL REPORT FOR PERIOD ENDING 6/4/2007
+2025-08-30 13:21:24,359 ERROR:Failed to insert dataset 'ATP 349, OCA R86 SEISMIC SURVEY, FINAL REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:24,359 INFO:Inserted dataset: ATP 349, OCA R86 SEISMIC SURVEY, FINAL REPORT
+2025-08-30 13:21:24,497 ERROR:Failed to insert dataset '1072772': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:24,497 INFO:Inserted dataset: 1072772
+2025-08-30 13:21:24,532 ERROR:Failed to insert dataset 'NO 1 BORE': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:24,533 INFO:Inserted dataset: NO 1 BORE
+2025-08-30 13:21:24,568 ERROR:Failed to insert dataset 'City Plan 2014 — LGIP — PFTI — Parks and Community Facilities — Future — Park embellishment — specific location': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:24,569 INFO:Inserted dataset: City Plan 2014 — LGIP — PFTI — Parks and Community Facilities — Future — Park embellishment — specific location
+2025-08-30 13:21:24,703 ERROR:Failed to insert dataset 'DENISON NS66': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:24,703 INFO:Inserted dataset: DENISON NS66
+2025-08-30 13:21:24,740 ERROR:Failed to insert dataset 'EPM 13076, SILVERWOOD, ANNUAL/FINAL REPORT FOR PERIOD 4/10/2001 TO 3/10/2002': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:24,741 INFO:Inserted dataset: EPM 13076, SILVERWOOD, ANNUAL/FINAL REPORT FOR PERIOD 4/10/2001 TO 3/10/2002
+2025-08-30 13:21:24,877 ERROR:Failed to insert dataset 'GSQ REPORT 51, COAL RESOURCES, BARALABA-MOURA-KIANGA-THEODORE COALFIELD, BANANA CREEK AREA': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:24,878 INFO:Inserted dataset: GSQ REPORT 51, COAL RESOURCES, BARALABA-MOURA-KIANGA-THEODORE COALFIELD, BANANA CREEK AREA
+2025-08-30 13:21:25,022 ERROR:Failed to insert dataset 'REEDY CREEK 205': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:25,022 INFO:Inserted dataset: REEDY CREEK 205
+2025-08-30 13:21:25,166 ERROR:Failed to insert dataset 'EPM 11370, VERDE TINTO, ANNUAL/FINAL REPORT FOR PERIOD 24/10/2001 TO 23/10/2002': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:25,166 INFO:Inserted dataset: EPM 11370, VERDE TINTO, ANNUAL/FINAL REPORT FOR PERIOD 24/10/2001 TO 23/10/2002
+2025-08-30 13:21:25,205 ERROR:Failed to insert dataset 'City Plan 2014 — LGIP — PFTI — Stormwater — Future — Natural channel lines': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:25,206 INFO:Inserted dataset: City Plan 2014 — LGIP — PFTI — Stormwater — Future — Natural channel lines
+2025-08-30 13:21:25,242 ERROR:Failed to insert dataset 'NO.4': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:25,243 INFO:Inserted dataset: NO.4
+2025-08-30 13:21:25,386 ERROR:Failed to insert dataset 'Imbil 40 Chains To An Inch Mine Map Provisional 1941': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:25,386 INFO:Inserted dataset: Imbil 40 Chains To An Inch Mine Map Provisional 1941
+2025-08-30 13:21:25,421 ERROR:Failed to insert dataset 'EPM 19437, LITTLE WATSON CREEK, ANNUAL REPORT FOR PERIOD ENDING 14/4/2019': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:25,422 INFO:Inserted dataset: EPM 19437, LITTLE WATSON CREEK, ANNUAL REPORT FOR PERIOD ENDING 14/4/2019
+2025-08-30 13:21:25,458 ERROR:Failed to insert dataset 'NO.4': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:25,458 INFO:Inserted dataset: NO.4
+2025-08-30 13:21:25,493 ERROR:Failed to insert dataset 'EPC 253, HAVILAH, REPORT ON AREA RELINQUISHED 19/2/1980': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:25,493 INFO:Inserted dataset: EPC 253, HAVILAH, REPORT ON AREA RELINQUISHED 19/2/1980
+2025-08-30 13:21:25,528 ERROR:Failed to insert dataset 'EPM 4471, HILLGROVE, SIX MONTHLY REPORT FOR PERIOD ENDING 3/5/1987, (QB 8/87)': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:25,529 INFO:Inserted dataset: EPM 4471, HILLGROVE, SIX MONTHLY REPORT FOR PERIOD ENDING 3/5/1987, (QB 8/87)
+2025-08-30 13:21:25,564 ERROR:Failed to insert dataset 'EPC 868, ANNUAL REPORT FOR PERIOD ENDING 17/2/2007': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:25,565 INFO:Inserted dataset: EPC 868, ANNUAL REPORT FOR PERIOD ENDING 17/2/2007
+2025-08-30 13:21:25,600 ERROR:Failed to insert dataset 'EPM 4774, CLONCURRY, SIX MONTHLY REPORT FOR PERIOD ENDING 1/6/1990': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:25,601 INFO:Inserted dataset: EPM 4774, CLONCURRY, SIX MONTHLY REPORT FOR PERIOD ENDING 1/6/1990
+2025-08-30 13:21:25,739 ERROR:Failed to insert dataset 'PL471 HORSE CREEK 16 HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:25,739 INFO:Inserted dataset: PL471 HORSE CREEK 16 HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT
+2025-08-30 13:21:25,777 ERROR:Failed to insert dataset 'PL 179, QGC ARGYLE 23, WELL PROPOSAL REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:25,778 INFO:Inserted dataset: PL 179, QGC ARGYLE 23, WELL PROPOSAL REPORT
+2025-08-30 13:21:50,511 INFO:Database initialized and table ready.
+2025-08-30 13:21:50,512 INFO:Starting harvest...
+2025-08-30 13:21:50,512 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 13:21:50,548 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:21:50,548 INFO:Fetching API data from Australian Bureau of Statistics
+2025-08-30 13:21:50,549 WARNING:No URL provided for Australian Bureau of Statistics
+2025-08-30 13:21:50,549 INFO:No datasets returned for Australian Bureau of Statistics
+2025-08-30 13:21:50,549 INFO:Processing Data.gov.au (api)
+2025-08-30 13:21:50,586 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 13:21:50,587 INFO:Fetching API data from Data.gov.au
+2025-08-30 13:21:51,209 INFO:Fetched 100 datasets from Data.gov.au
+2025-08-30 13:21:51,833 INFO:Fetched 200 datasets from Data.gov.au
+2025-08-30 13:21:51,978 ERROR:Failed to insert dataset 'Register of Native Title Claims': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:51,979 INFO:Inserted dataset: Register of Native Title Claims
+2025-08-30 13:21:52,015 ERROR:Failed to insert dataset 'ATP 271, RELINQUISHMENT REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,016 INFO:Inserted dataset: ATP 271, RELINQUISHMENT REPORT
+2025-08-30 13:21:52,051 ERROR:Failed to insert dataset 'EPC1429 YARRABEE DATA IN LIEU OF CR 107912 ANNUAL ACTIVITY REPORT FOR PERIOD ENDING 14 JUNE 2018': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,052 INFO:Inserted dataset: EPC1429 YARRABEE DATA IN LIEU OF CR 107912 ANNUAL ACTIVITY REPORT FOR PERIOD ENDING 14 JUNE 2018
+2025-08-30 13:21:52,087 ERROR:Failed to insert dataset 'Wimmera CMA VFRR Referral Layer': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,088 INFO:Inserted dataset: Wimmera CMA VFRR Referral Layer
+2025-08-30 13:21:52,124 ERROR:Failed to insert dataset 'Double Lagoon 1:100000 Geology Map Compilation 2018': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,124 INFO:Inserted dataset: Double Lagoon 1:100000 Geology Map Compilation 2018
+2025-08-30 13:21:52,159 ERROR:Failed to insert dataset 'EPM 3234, SIX MONTHLY REPORT FOR PERIOD 19/3/1986 TO 19/9/1986': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,160 INFO:Inserted dataset: EPM 3234, SIX MONTHLY REPORT FOR PERIOD 19/3/1986 TO 19/9/1986
+2025-08-30 13:21:52,197 ERROR:Failed to insert dataset 'PL 399, QGC POLARIS 174, WELL COMPLETION REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,198 INFO:Inserted dataset: PL 399, QGC POLARIS 174, WELL COMPLETION REPORT
+2025-08-30 13:21:52,234 ERROR:Failed to insert dataset 'EPM 25151, PANDANUS CREEK, ANNUAL REPORT FOR PERIOD ENDING 1/12/2015': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,234 INFO:Inserted dataset: EPM 25151, PANDANUS CREEK, ANNUAL REPORT FOR PERIOD ENDING 1/12/2015
+2025-08-30 13:21:52,270 ERROR:Failed to insert dataset '[Superseded] Flood Study — Kedron Brook — Sep 2014': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,270 INFO:Inserted dataset: [Superseded] Flood Study — Kedron Brook — Sep 2014
+2025-08-30 13:21:52,306 ERROR:Failed to insert dataset 'GSQ RECORD 2012/13: MINERALOGY AND PETROGRAPHY OF THE SOUTHERN GALILEE BASIN, QUEENSLAND': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,306 INFO:Inserted dataset: GSQ RECORD 2012/13: MINERALOGY AND PETROGRAPHY OF THE SOUTHERN GALILEE BASIN, QUEENSLAND
+2025-08-30 13:21:52,342 ERROR:Failed to insert dataset 'EPM 18575, CARBO CREEK, ANNUAL REPORT FOR PERIOD ENDING 27/6/2014': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,343 INFO:Inserted dataset: EPM 18575, CARBO CREEK, ANNUAL REPORT FOR PERIOD ENDING 27/6/2014
+2025-08-30 13:21:52,378 ERROR:Failed to insert dataset 'GSQ RECORD 1981/16: IPSWICH COALFIELD, RHONDDA SOUTH, SUPPLEMENTARY DRILLING IN THE COCHRANE SEAM': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,379 INFO:Inserted dataset: GSQ RECORD 1981/16: IPSWICH COALFIELD, RHONDDA SOUTH, SUPPLEMENTARY DRILLING IN THE COCHRANE SEAM
+2025-08-30 13:21:52,518 ERROR:Failed to insert dataset 'Geochemistry data for Block CLON2401': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,519 INFO:Inserted dataset: Geochemistry data for Block CLON2401
+2025-08-30 13:21:52,663 ERROR:Failed to insert dataset 'EPM 10308, HUNTLEY CREEK, ANNUAL/FINAL REPORT FOR PERIOD ENDING 2/1/2002': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,664 INFO:Inserted dataset: EPM 10308, HUNTLEY CREEK, ANNUAL/FINAL REPORT FOR PERIOD ENDING 2/1/2002
+2025-08-30 13:21:52,699 ERROR:Failed to insert dataset 'EPM 2619, HELLHOLE CREEK, FINAL RELINQUISHMENT REPORT, (REPORT NO. 08.2291)': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,699 INFO:Inserted dataset: EPM 2619, HELLHOLE CREEK, FINAL RELINQUISHMENT REPORT, (REPORT NO. 08.2291)
+2025-08-30 13:21:52,735 ERROR:Failed to insert dataset 'PL 421, STO SUNNYHOLT 30, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-3': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,735 INFO:Inserted dataset: PL 421, STO SUNNYHOLT 30, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-3
+2025-08-30 13:21:52,871 ERROR:Failed to insert dataset 'EPM 14602, BIG BEND, ANNUAL REPORT FOR PERIOD ENDING 6/4/2007': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,871 INFO:Inserted dataset: EPM 14602, BIG BEND, ANNUAL REPORT FOR PERIOD ENDING 6/4/2007
+2025-08-30 13:21:52,909 ERROR:Failed to insert dataset 'ATP 349, OCA R86 SEISMIC SURVEY, FINAL REPORT': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,909 INFO:Inserted dataset: ATP 349, OCA R86 SEISMIC SURVEY, FINAL REPORT
+2025-08-30 13:21:52,944 ERROR:Failed to insert dataset '1072772': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,944 INFO:Inserted dataset: 1072772
+2025-08-30 13:21:52,981 ERROR:Failed to insert dataset 'NO 1 BORE': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:52,982 INFO:Inserted dataset: NO 1 BORE
+2025-08-30 13:21:53,017 ERROR:Failed to insert dataset 'City Plan 2014 — LGIP — PFTI — Parks and Community Facilities — Future — Park embellishment — specific location': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:53,017 INFO:Inserted dataset: City Plan 2014 — LGIP — PFTI — Parks and Community Facilities — Future — Park embellishment — specific location
+2025-08-30 13:21:53,155 ERROR:Failed to insert dataset 'DENISON NS66': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:53,156 INFO:Inserted dataset: DENISON NS66
+2025-08-30 13:21:53,194 ERROR:Failed to insert dataset 'EPM 13076, SILVERWOOD, ANNUAL/FINAL REPORT FOR PERIOD 4/10/2001 TO 3/10/2002': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:53,194 INFO:Inserted dataset: EPM 13076, SILVERWOOD, ANNUAL/FINAL REPORT FOR PERIOD 4/10/2001 TO 3/10/2002
+2025-08-30 13:21:53,230 ERROR:Failed to insert dataset 'GSQ REPORT 51, COAL RESOURCES, BARALABA-MOURA-KIANGA-THEODORE COALFIELD, BANANA CREEK AREA': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:53,231 INFO:Inserted dataset: GSQ REPORT 51, COAL RESOURCES, BARALABA-MOURA-KIANGA-THEODORE COALFIELD, BANANA CREEK AREA
+2025-08-30 13:21:53,379 ERROR:Failed to insert dataset 'REEDY CREEK 205': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:53,379 INFO:Inserted dataset: REEDY CREEK 205
+2025-08-30 13:21:53,415 ERROR:Failed to insert dataset 'EPM 11370, VERDE TINTO, ANNUAL/FINAL REPORT FOR PERIOD 24/10/2001 TO 23/10/2002': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:53,415 INFO:Inserted dataset: EPM 11370, VERDE TINTO, ANNUAL/FINAL REPORT FOR PERIOD 24/10/2001 TO 23/10/2002
+2025-08-30 13:21:53,554 ERROR:Failed to insert dataset 'City Plan 2014 — LGIP — PFTI — Stormwater — Future — Natural channel lines': column "title" of relation "datasets" does not exist
+LINE 2: ...   INSERT INTO govhack2025.datasets (source_name, title, des...
+                                                             ^
+
+2025-08-30 13:21:53,554 INFO:Inserted dataset: City Plan 2014 — LGIP — PFTI — Stormwater — Future — Natural channel lines
+2025-08-30 13:22:48,648 INFO:Database initialized and table ready.
+2025-08-30 13:22:48,649 INFO:Starting harvest...
+2025-08-30 13:22:48,649 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 13:22:48,693 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:22:48,694 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:22:48,694 INFO:Fetching API data from Australian Bureau of Statistics
+2025-08-30 13:22:48,694 WARNING:No URL provided for Australian Bureau of Statistics
+2025-08-30 13:22:48,694 INFO:No datasets returned for Australian Bureau of Statistics
+2025-08-30 13:22:48,694 INFO:Processing Data.gov.au (api)
+2025-08-30 13:22:48,736 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 13:22:48,737 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 13:22:48,737 INFO:Fetching API data from Data.gov.au
+2025-08-30 13:22:49,308 INFO:Fetched 100 datasets from Data.gov.au
+2025-08-30 13:22:49,933 INFO:Fetched 200 datasets from Data.gov.au
+2025-08-30 13:22:49,935 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,935 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,935 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,935 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,935 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,935 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,936 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,936 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,936 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,936 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,936 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,936 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,936 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,937 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,937 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,937 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,937 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,937 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,937 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,937 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,938 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,938 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,938 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,938 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,938 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,938 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,939 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,939 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,939 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,939 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,939 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,939 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,939 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,940 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,940 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,940 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,940 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,940 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,941 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,941 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,941 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,941 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,942 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,942 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,942 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,942 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,942 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,942 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,942 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,943 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,943 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,943 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,943 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,943 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,943 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,943 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,944 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,944 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,944 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,944 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,944 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,944 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,945 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,945 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,945 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,945 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,945 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,945 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,945 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,945 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,946 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,946 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,946 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,946 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,946 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,946 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,946 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,947 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,947 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,947 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,947 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,947 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,947 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,948 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,948 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,948 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,948 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,948 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,949 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,949 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,949 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,949 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,949 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,949 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,950 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,950 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,950 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,950 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,950 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,950 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,950 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,951 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,951 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,951 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,951 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,951 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,951 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,951 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,952 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,952 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,952 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,952 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,952 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,952 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,952 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,953 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,953 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,953 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,953 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,953 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,953 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,954 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,954 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,954 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,954 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,954 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,954 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,955 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,955 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,955 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,955 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,955 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,955 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,955 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,956 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,956 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,956 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,956 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,956 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,956 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,956 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,957 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,957 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,957 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,957 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,957 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,957 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,957 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,957 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,958 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,958 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,958 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,958 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,958 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,958 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,959 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,959 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,959 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,959 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,959 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,959 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,959 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,960 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,960 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,960 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,960 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,960 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,960 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,960 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,961 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,961 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,961 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,961 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,961 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,961 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,961 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,962 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,962 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,962 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,962 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,962 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,962 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,962 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,962 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,963 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,963 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,963 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,963 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,963 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,964 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,964 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,964 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,964 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,964 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,964 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,964 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,965 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,965 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,965 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,965 ERROR:Failed to insert dataset: insert_dataset() got an unexpected keyword argument 'format'. Did you mean 'format_'?
+2025-08-30 13:22:49,965 INFO:Data.gov.au returned 200 datasets
+2025-08-30 13:22:49,965 INFO:Harvest completed.
+2025-08-30 13:22:49,966 INFO:Harvest completed.
+2025-08-30 13:27:18,510 INFO:Database initialized and table ready.
+2025-08-30 13:27:18,510 INFO:Starting harvest...
+2025-08-30 13:27:18,511 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 13:27:18,547 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:27:18,547 INFO:Cleared previous datasets for Australian Bureau of Statistics
+2025-08-30 13:27:18,547 INFO:Fetching API data from Australian Bureau of Statistics
+2025-08-30 13:27:18,548 WARNING:No URL provided for Australian Bureau of Statistics
+2025-08-30 13:27:18,548 INFO:No datasets returned for Australian Bureau of Statistics
+2025-08-30 13:27:18,548 INFO:Processing Data.gov.au (api)
+2025-08-30 13:27:18,689 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 13:27:18,689 INFO:Cleared previous datasets for Data.gov.au
+2025-08-30 13:27:18,689 INFO:Fetching API data from Data.gov.au
+2025-08-30 13:27:19,387 INFO:Fetched 100 datasets from Data.gov.au
+2025-08-30 13:27:19,923 INFO:Fetched 200 datasets from Data.gov.au
+2025-08-30 13:27:19,962 INFO:Inserted dataset: Register of Native Title Claims
+2025-08-30 13:27:19,962 INFO:Inserted dataset: Register of Native Title Claims
+2025-08-30 13:27:19,998 INFO:Inserted dataset: 32158
+2025-08-30 13:27:19,998 INFO:Inserted dataset: 32158
+2025-08-30 13:27:20,035 INFO:Inserted dataset: PL 14, HEP KINCORA 35, WELL COMPLETION REPORT
+2025-08-30 13:27:20,035 INFO:Inserted dataset: PL 14, HEP KINCORA 35, WELL COMPLETION REPORT
+2025-08-30 13:27:20,072 INFO:Inserted dataset: 1073118
+2025-08-30 13:27:20,073 INFO:Inserted dataset: 1073118
+2025-08-30 13:27:20,109 INFO:Inserted dataset: EPM 8937, BLUE BUSH, RELINQUISHMENT REPORT FOR PERIOD 7/9/1992 TO 6/9/1994
+2025-08-30 13:27:20,109 INFO:Inserted dataset: EPM 8937, BLUE BUSH, RELINQUISHMENT REPORT FOR PERIOD 7/9/1992 TO 6/9/1994
+2025-08-30 13:27:20,147 INFO:Inserted dataset: EPM 3365, JULIA CREEK, SIX MONTHLY REPORT FOR PERIOD ENDING 14/11/1986
+2025-08-30 13:27:20,147 INFO:Inserted dataset: EPM 3365, JULIA CREEK, SIX MONTHLY REPORT FOR PERIOD ENDING 14/11/1986
+2025-08-30 13:27:20,184 INFO:Inserted dataset: EPM 11192, TABLELAND, ANNUAL REPORT FOR PERIOD 24/9/1996 TO 23/9/1997
+2025-08-30 13:27:20,185 INFO:Inserted dataset: EPM 11192, TABLELAND, ANNUAL REPORT FOR PERIOD 24/9/1996 TO 23/9/1997
+2025-08-30 13:27:20,222 INFO:Inserted dataset: ATP 258, B82A SEISMIC SURVEY 1982, FINAL REPORT
+2025-08-30 13:27:20,222 INFO:Inserted dataset: ATP 258, B82A SEISMIC SURVEY 1982, FINAL REPORT
+2025-08-30 13:27:20,258 INFO:Inserted dataset: PL 14, OCA KINCORA 40, WELL PROPOSAL REPORT
+2025-08-30 13:27:20,259 INFO:Inserted dataset: PL 14, OCA KINCORA 40, WELL PROPOSAL REPORT
+2025-08-30 13:27:20,297 INFO:Inserted dataset: PL 100, 105-109, 111-114, 129-132, 140-141, 143-150, 152, 155, 158, COMBINED RESERVES REPORT FOR THE SIX MONTH PERIOD ENDING 30/6/2013
+2025-08-30 13:27:20,297 INFO:Inserted dataset: PL 100, 105-109, 111-114, 129-132, 140-141, 143-150, 152, 155, 158, COMBINED RESERVES REPORT FOR THE SIX MONTH PERIOD ENDING 30/6/2013
+2025-08-30 13:27:20,435 INFO:Inserted dataset: BHR058
+2025-08-30 13:27:20,435 INFO:Inserted dataset: BHR058
+2025-08-30 13:27:20,471 INFO:Inserted dataset: PL 277, QGC WOLEEBEE CREEK 133, WELL COMPLETION REPORT
+2025-08-30 13:27:20,472 INFO:Inserted dataset: PL 277, QGC WOLEEBEE CREEK 133, WELL COMPLETION REPORT
+2025-08-30 13:27:20,508 INFO:Inserted dataset: EPM 14642, FERN SPRINGS, CHARTERS TOWERS PROJECT, ANNUAL REPORT FOR PERIOD ENDING 26/6/2006
+2025-08-30 13:27:20,509 INFO:Inserted dataset: EPM 14642, FERN SPRINGS, CHARTERS TOWERS PROJECT, ANNUAL REPORT FOR PERIOD ENDING 26/6/2006
+2025-08-30 13:27:20,545 INFO:Inserted dataset: ATP 271, RELINQUISHMENT REPORT
+2025-08-30 13:27:20,546 INFO:Inserted dataset: ATP 271, RELINQUISHMENT REPORT
+2025-08-30 13:27:20,582 INFO:Inserted dataset: EPC1429 YARRABEE DATA IN LIEU OF CR 107912 ANNUAL ACTIVITY REPORT FOR PERIOD ENDING 14 JUNE 2018
+2025-08-30 13:27:20,582 INFO:Inserted dataset: EPC1429 YARRABEE DATA IN LIEU OF CR 107912 ANNUAL ACTIVITY REPORT FOR PERIOD ENDING 14 JUNE 2018
+2025-08-30 13:27:20,724 INFO:Inserted dataset: Wimmera CMA VFRR Referral Layer
+2025-08-30 13:27:20,724 INFO:Inserted dataset: Wimmera CMA VFRR Referral Layer
+2025-08-30 13:27:20,761 INFO:Inserted dataset: Double Lagoon 1:100000 Geology Map Compilation 2018
+2025-08-30 13:27:20,762 INFO:Inserted dataset: Double Lagoon 1:100000 Geology Map Compilation 2018
+2025-08-30 13:27:20,798 INFO:Inserted dataset: EPM 3234, SIX MONTHLY REPORT FOR PERIOD 19/3/1986 TO 19/9/1986
+2025-08-30 13:27:20,799 INFO:Inserted dataset: EPM 3234, SIX MONTHLY REPORT FOR PERIOD 19/3/1986 TO 19/9/1986
+2025-08-30 13:27:20,947 INFO:Inserted dataset: PL 399, QGC POLARIS 174, WELL COMPLETION REPORT
+2025-08-30 13:27:20,948 INFO:Inserted dataset: PL 399, QGC POLARIS 174, WELL COMPLETION REPORT
+2025-08-30 13:27:21,091 INFO:Inserted dataset: EPM 25151, PANDANUS CREEK, ANNUAL REPORT FOR PERIOD ENDING 1/12/2015
+2025-08-30 13:27:21,092 INFO:Inserted dataset: EPM 25151, PANDANUS CREEK, ANNUAL REPORT FOR PERIOD ENDING 1/12/2015
+2025-08-30 13:27:21,128 INFO:Inserted dataset: [Superseded] Flood Study — Kedron Brook — Sep 2014
+2025-08-30 13:27:21,129 INFO:Inserted dataset: [Superseded] Flood Study — Kedron Brook — Sep 2014
+2025-08-30 13:27:21,165 INFO:Inserted dataset: GSQ RECORD 2012/13: MINERALOGY AND PETROGRAPHY OF THE SOUTHERN GALILEE BASIN, QUEENSLAND
+2025-08-30 13:27:21,166 INFO:Inserted dataset: GSQ RECORD 2012/13: MINERALOGY AND PETROGRAPHY OF THE SOUTHERN GALILEE BASIN, QUEENSLAND
+2025-08-30 13:27:21,314 INFO:Inserted dataset: EPM 18575, CARBO CREEK, ANNUAL REPORT FOR PERIOD ENDING 27/6/2014
+2025-08-30 13:27:21,314 INFO:Inserted dataset: EPM 18575, CARBO CREEK, ANNUAL REPORT FOR PERIOD ENDING 27/6/2014
+2025-08-30 13:27:21,351 INFO:Inserted dataset: GSQ RECORD 1981/16: IPSWICH COALFIELD, RHONDDA SOUTH, SUPPLEMENTARY DRILLING IN THE COCHRANE SEAM
+2025-08-30 13:27:21,351 INFO:Inserted dataset: GSQ RECORD 1981/16: IPSWICH COALFIELD, RHONDDA SOUTH, SUPPLEMENTARY DRILLING IN THE COCHRANE SEAM
+2025-08-30 13:27:21,387 INFO:Inserted dataset: Geochemistry data for Block CLON2401
+2025-08-30 13:27:21,388 INFO:Inserted dataset: Geochemistry data for Block CLON2401
+2025-08-30 13:27:21,424 INFO:Inserted dataset: EPM 10308, HUNTLEY CREEK, ANNUAL/FINAL REPORT FOR PERIOD ENDING 2/1/2002
+2025-08-30 13:27:21,425 INFO:Inserted dataset: EPM 10308, HUNTLEY CREEK, ANNUAL/FINAL REPORT FOR PERIOD ENDING 2/1/2002
+2025-08-30 13:27:21,461 INFO:Inserted dataset: EPM 2619, HELLHOLE CREEK, FINAL RELINQUISHMENT REPORT, (REPORT NO. 08.2291)
+2025-08-30 13:27:21,461 INFO:Inserted dataset: EPM 2619, HELLHOLE CREEK, FINAL RELINQUISHMENT REPORT, (REPORT NO. 08.2291)
+2025-08-30 13:27:21,497 INFO:Inserted dataset: PL 421, STO SUNNYHOLT 30, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-3
+2025-08-30 13:27:21,498 INFO:Inserted dataset: PL 421, STO SUNNYHOLT 30, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-3
+2025-08-30 13:27:21,632 INFO:Inserted dataset: EPM 14602, BIG BEND, ANNUAL REPORT FOR PERIOD ENDING 6/4/2007
+2025-08-30 13:27:21,633 INFO:Inserted dataset: EPM 14602, BIG BEND, ANNUAL REPORT FOR PERIOD ENDING 6/4/2007
+2025-08-30 13:27:21,669 INFO:Inserted dataset: ATP 349, OCA R86 SEISMIC SURVEY, FINAL REPORT
+2025-08-30 13:27:21,670 INFO:Inserted dataset: ATP 349, OCA R86 SEISMIC SURVEY, FINAL REPORT
+2025-08-30 13:27:21,808 INFO:Inserted dataset: 1072772
+2025-08-30 13:27:21,809 INFO:Inserted dataset: 1072772
+2025-08-30 13:27:21,846 INFO:Inserted dataset: NO 1 BORE
+2025-08-30 13:27:21,846 INFO:Inserted dataset: NO 1 BORE
+2025-08-30 13:27:21,982 INFO:Inserted dataset: City Plan 2014 — LGIP — PFTI — Parks and Community Facilities — Future — Park embellishment — specific location
+2025-08-30 13:27:21,983 INFO:Inserted dataset: City Plan 2014 — LGIP — PFTI — Parks and Community Facilities — Future — Park embellishment — specific location
+2025-08-30 13:27:22,020 INFO:Inserted dataset: DENISON NS66
+2025-08-30 13:27:22,020 INFO:Inserted dataset: DENISON NS66
+2025-08-30 13:27:22,057 INFO:Inserted dataset: EPM 13076, SILVERWOOD, ANNUAL/FINAL REPORT FOR PERIOD 4/10/2001 TO 3/10/2002
+2025-08-30 13:27:22,057 INFO:Inserted dataset: EPM 13076, SILVERWOOD, ANNUAL/FINAL REPORT FOR PERIOD 4/10/2001 TO 3/10/2002
+2025-08-30 13:27:22,204 INFO:Inserted dataset: GSQ REPORT 51, COAL RESOURCES, BARALABA-MOURA-KIANGA-THEODORE COALFIELD, BANANA CREEK AREA
+2025-08-30 13:27:22,204 INFO:Inserted dataset: GSQ REPORT 51, COAL RESOURCES, BARALABA-MOURA-KIANGA-THEODORE COALFIELD, BANANA CREEK AREA
+2025-08-30 13:27:22,347 INFO:Inserted dataset: REEDY CREEK 205
+2025-08-30 13:27:22,348 INFO:Inserted dataset: REEDY CREEK 205
+2025-08-30 13:27:22,491 INFO:Inserted dataset: EPM 11370, VERDE TINTO, ANNUAL/FINAL REPORT FOR PERIOD 24/10/2001 TO 23/10/2002
+2025-08-30 13:27:22,491 INFO:Inserted dataset: EPM 11370, VERDE TINTO, ANNUAL/FINAL REPORT FOR PERIOD 24/10/2001 TO 23/10/2002
+2025-08-30 13:27:22,635 INFO:Inserted dataset: City Plan 2014 — LGIP — PFTI — Stormwater — Future — Natural channel lines
+2025-08-30 13:27:22,635 INFO:Inserted dataset: City Plan 2014 — LGIP — PFTI — Stormwater — Future — Natural channel lines
+2025-08-30 13:27:22,671 INFO:Inserted dataset: NO.4
+2025-08-30 13:27:22,672 INFO:Inserted dataset: NO.4
+2025-08-30 13:27:22,812 INFO:Inserted dataset: Imbil 40 Chains To An Inch Mine Map Provisional 1941
+2025-08-30 13:27:22,812 INFO:Inserted dataset: Imbil 40 Chains To An Inch Mine Map Provisional 1941
+2025-08-30 13:27:22,956 INFO:Inserted dataset: EPM 19437, LITTLE WATSON CREEK, ANNUAL REPORT FOR PERIOD ENDING 14/4/2019
+2025-08-30 13:27:22,956 INFO:Inserted dataset: EPM 19437, LITTLE WATSON CREEK, ANNUAL REPORT FOR PERIOD ENDING 14/4/2019
+2025-08-30 13:27:23,100 INFO:Inserted dataset: NO.4
+2025-08-30 13:27:23,100 INFO:Inserted dataset: NO.4
+2025-08-30 13:27:23,137 INFO:Inserted dataset: EPC 253, HAVILAH, REPORT ON AREA RELINQUISHED 19/2/1980
+2025-08-30 13:27:23,137 INFO:Inserted dataset: EPC 253, HAVILAH, REPORT ON AREA RELINQUISHED 19/2/1980
+2025-08-30 13:27:23,174 INFO:Inserted dataset: EPM 4471, HILLGROVE, SIX MONTHLY REPORT FOR PERIOD ENDING 3/5/1987, (QB 8/87)
+2025-08-30 13:27:23,174 INFO:Inserted dataset: EPM 4471, HILLGROVE, SIX MONTHLY REPORT FOR PERIOD ENDING 3/5/1987, (QB 8/87)
+2025-08-30 13:27:23,213 INFO:Inserted dataset: EPC 868, ANNUAL REPORT FOR PERIOD ENDING 17/2/2007
+2025-08-30 13:27:23,213 INFO:Inserted dataset: EPC 868, ANNUAL REPORT FOR PERIOD ENDING 17/2/2007
+2025-08-30 13:27:23,356 INFO:Inserted dataset: EPM 4774, CLONCURRY, SIX MONTHLY REPORT FOR PERIOD ENDING 1/6/1990
+2025-08-30 13:27:23,356 INFO:Inserted dataset: EPM 4774, CLONCURRY, SIX MONTHLY REPORT FOR PERIOD ENDING 1/6/1990
+2025-08-30 13:27:23,392 INFO:Inserted dataset: PL471 HORSE CREEK 16 HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT
+2025-08-30 13:27:23,393 INFO:Inserted dataset: PL471 HORSE CREEK 16 HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT
+2025-08-30 13:27:23,430 INFO:Inserted dataset: PL 179, QGC ARGYLE 23, WELL PROPOSAL REPORT
+2025-08-30 13:27:23,430 INFO:Inserted dataset: PL 179, QGC ARGYLE 23, WELL PROPOSAL REPORT
+2025-08-30 13:27:23,468 INFO:Inserted dataset: EPC 1655, CHINCHILLA SOUTH, ANNUAL REPORT FOR PERIOD ENDING 16/8/2010
+2025-08-30 13:27:23,468 INFO:Inserted dataset: EPC 1655, CHINCHILLA SOUTH, ANNUAL REPORT FOR PERIOD ENDING 16/8/2010
+2025-08-30 13:27:23,505 INFO:Inserted dataset: Climate progress filterable actions
+2025-08-30 13:27:23,505 INFO:Inserted dataset: Climate progress filterable actions
+2025-08-30 13:27:23,542 INFO:Inserted dataset: TAYLOR 14
+2025-08-30 13:27:23,542 INFO:Inserted dataset: TAYLOR 14
+2025-08-30 13:27:23,579 INFO:Inserted dataset: EPM 17762, TREKELANO, ANNUAL REPORT FOR PERIOD 20/10/2012 TO 19/10/2013
+2025-08-30 13:27:23,579 INFO:Inserted dataset: EPM 17762, TREKELANO, ANNUAL REPORT FOR PERIOD 20/10/2012 TO 19/10/2013
+2025-08-30 13:27:23,616 INFO:Inserted dataset: Geochemistry data for Block CLON3245
+2025-08-30 13:27:23,616 INFO:Inserted dataset: Geochemistry data for Block CLON3245
+2025-08-30 13:27:23,756 INFO:Inserted dataset: EPM 1283, JULIA CREEK PROSPECT, REPORT ON THE 1974 DRILLING PROGRAMME
+2025-08-30 13:27:23,756 INFO:Inserted dataset: EPM 1283, JULIA CREEK PROSPECT, REPORT ON THE 1974 DRILLING PROGRAMME
+2025-08-30 13:27:23,794 INFO:Inserted dataset: ATP 668, OER BETA 1, WELL COMPLETION REPORT
+2025-08-30 13:27:23,794 INFO:Inserted dataset: ATP 668, OER BETA 1, WELL COMPLETION REPORT
+2025-08-30 13:27:23,831 INFO:Inserted dataset: GALILEE NS5281
+2025-08-30 13:27:23,831 INFO:Inserted dataset: GALILEE NS5281
+2025-08-30 13:27:23,979 INFO:Inserted dataset: DRUMMOND BASIN PROJECT - PICCADILLY (WMC #77)
+2025-08-30 13:27:23,979 INFO:Inserted dataset: DRUMMOND BASIN PROJECT - PICCADILLY (WMC #77)
+2025-08-30 13:27:24,016 INFO:Inserted dataset: EPM 19173, WELCOME CREEK/LE PEROUSE, ANNUAL REPORT FOR PERIOD ENDING 25/7/2016
+2025-08-30 13:27:24,016 INFO:Inserted dataset: EPM 19173, WELCOME CREEK/LE PEROUSE, ANNUAL REPORT FOR PERIOD ENDING 25/7/2016
+2025-08-30 13:27:24,053 INFO:Inserted dataset: EPC 1156, JERICHO SOUTH, ANNUAL REPORT FOR PERIOD ENDING 20/10/2013
+2025-08-30 13:27:24,053 INFO:Inserted dataset: EPC 1156, JERICHO SOUTH, ANNUAL REPORT FOR PERIOD ENDING 20/10/2013
+2025-08-30 13:27:24,090 INFO:Inserted dataset: ATP 259, SSL JARRAR 2, WELL PROPOSAL REPORT
+2025-08-30 13:27:24,090 INFO:Inserted dataset: ATP 259, SSL JARRAR 2, WELL PROPOSAL REPORT
+2025-08-30 13:27:24,127 INFO:Inserted dataset: EPM 26155, MOUNT WYATT PROJECT, ANNUAL REPORT FOR PERIOD ENDING 20/11/2018
+2025-08-30 13:27:24,127 INFO:Inserted dataset: EPM 26155, MOUNT WYATT PROJECT, ANNUAL REPORT FOR PERIOD ENDING 20/11/2018
+2025-08-30 13:27:24,164 INFO:Inserted dataset: EPM 16050, WOLFRAM CAMP SOUTH, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 21/2/2012
+2025-08-30 13:27:24,164 INFO:Inserted dataset: EPM 16050, WOLFRAM CAMP SOUTH, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 21/2/2012
+2025-08-30 13:27:24,203 INFO:Inserted dataset: GALILEE NS791
+2025-08-30 13:27:24,203 INFO:Inserted dataset: GALILEE NS791
+2025-08-30 13:27:24,239 INFO:Inserted dataset: PL 420, STO AC18-66 1, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-3
+2025-08-30 13:27:24,240 INFO:Inserted dataset: PL 420, STO AC18-66 1, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-3
+2025-08-30 13:27:24,277 INFO:Inserted dataset: EPC 208, 218, OAKY CREEK PROJECT, SIX MONTHLY REPORT FOR PERIOD ENDING 19/1/1982
+2025-08-30 13:27:24,277 INFO:Inserted dataset: EPC 208, 218, OAKY CREEK PROJECT, SIX MONTHLY REPORT FOR PERIOD ENDING 19/1/1982
+2025-08-30 13:27:24,313 INFO:Inserted dataset: TICKALARA 2
+2025-08-30 13:27:24,314 INFO:Inserted dataset: TICKALARA 2
+2025-08-30 13:27:24,354 INFO:Inserted dataset: ATP 550, PARTIAL RELINQUISHMENT REPORT FOR THOSE NINE BLOCKS RELINQUISHED ON 19/10/1999
+2025-08-30 13:27:24,354 INFO:Inserted dataset: ATP 550, PARTIAL RELINQUISHMENT REPORT FOR THOSE NINE BLOCKS RELINQUISHED ON 19/10/1999
+2025-08-30 13:27:24,503 INFO:Inserted dataset: EPM 2149, SIX MONTHLY REPORT FOR PERIOD ENDING 21/1/1980
+2025-08-30 13:27:24,503 INFO:Inserted dataset: EPM 2149, SIX MONTHLY REPORT FOR PERIOD ENDING 21/1/1980
+2025-08-30 13:27:24,645 INFO:Inserted dataset: PFL 26, ANNUAL REPORT FOR PERIOD ENDING 23/12/2019
+2025-08-30 13:27:24,646 INFO:Inserted dataset: PFL 26, ANNUAL REPORT FOR PERIOD ENDING 23/12/2019
+2025-08-30 13:27:24,681 INFO:Inserted dataset: PETER?S WELL
+2025-08-30 13:27:24,682 INFO:Inserted dataset: PETER?S WELL
+2025-08-30 13:27:24,720 INFO:Inserted dataset: PL 273, QGC DAVID 110, WELL COMPLETION REPORT
+2025-08-30 13:27:24,721 INFO:Inserted dataset: PL 273, QGC DAVID 110, WELL COMPLETION REPORT
+2025-08-30 13:27:24,778 INFO:Inserted dataset: Unclaimed monies
+2025-08-30 13:27:24,779 INFO:Inserted dataset: Unclaimed monies
+2025-08-30 13:27:24,823 INFO:Inserted dataset: North Scotia 6
+2025-08-30 13:27:24,824 INFO:Inserted dataset: North Scotia 6
+2025-08-30 13:27:24,862 INFO:Inserted dataset: GSQ RECORD 2017/04: GSQ EULO 2 BOREHOLE COMPLETION RECORD, SOUTHERN THOMSON PROJECT
+2025-08-30 13:27:24,863 INFO:Inserted dataset: GSQ RECORD 2017/04: GSQ EULO 2 BOREHOLE COMPLETION RECORD, SOUTHERN THOMSON PROJECT
+2025-08-30 13:27:24,900 INFO:Inserted dataset: EPM 2385, ANNUAL/EXPENDITURE REPORT FOR PERIOD ENDING 1/4/1981 (FINAL REPORT)
+2025-08-30 13:27:24,900 INFO:Inserted dataset: EPM 2385, ANNUAL/EXPENDITURE REPORT FOR PERIOD ENDING 1/4/1981 (FINAL REPORT)
+2025-08-30 13:27:24,936 INFO:Inserted dataset: DURHAM RANCH 153
+2025-08-30 13:27:24,937 INFO:Inserted dataset: DURHAM RANCH 153
+2025-08-30 13:27:25,074 INFO:Inserted dataset: EPM 26220, CARSE CREEK, ANNUAL REPORT FOR PERIOD ENDING 18/12/2017
+2025-08-30 13:27:25,074 INFO:Inserted dataset: EPM 26220, CARSE CREEK, ANNUAL REPORT FOR PERIOD ENDING 18/12/2017
+2025-08-30 13:27:25,219 INFO:Inserted dataset: Kangaroo Hills 1:100000 Geology Map Compilation 2006
+2025-08-30 13:27:25,219 INFO:Inserted dataset: Kangaroo Hills 1:100000 Geology Map Compilation 2006
+2025-08-30 13:27:25,256 INFO:Inserted dataset: PL 201, QGC BERWYNDALE SOUTH 54, WELL PROPOSAL REPORT
+2025-08-30 13:27:25,256 INFO:Inserted dataset: PL 201, QGC BERWYNDALE SOUTH 54, WELL PROPOSAL REPORT
+2025-08-30 13:27:25,294 INFO:Inserted dataset: NO.1
+2025-08-30 13:27:25,294 INFO:Inserted dataset: NO.1
+2025-08-30 13:27:25,330 INFO:Inserted dataset: ATP 119, ARCTURUS FIELD STUDY
+2025-08-30 13:27:25,331 INFO:Inserted dataset: ATP 119, ARCTURUS FIELD STUDY
+2025-08-30 13:27:25,368 INFO:Inserted dataset: CONDABRI NORTH 360
+2025-08-30 13:27:25,368 INFO:Inserted dataset: CONDABRI NORTH 360
+2025-08-30 13:27:25,405 INFO:Inserted dataset: PLANTAGENET 41
+2025-08-30 13:27:25,405 INFO:Inserted dataset: PLANTAGENET 41
+2025-08-30 13:27:25,552 INFO:Inserted dataset: Gilberton 1:100000 Mineral Occurrence Map Compilation 2018
+2025-08-30 13:27:25,552 INFO:Inserted dataset: Gilberton 1:100000 Mineral Occurrence Map Compilation 2018
+2025-08-30 13:27:25,589 INFO:Inserted dataset: EPM 584, DAWES RANGE, REPORTFOR PERIOD ENDING 31/12/1969
+2025-08-30 13:27:25,589 INFO:Inserted dataset: EPM 584, DAWES RANGE, REPORTFOR PERIOD ENDING 31/12/1969
+2025-08-30 13:27:25,625 INFO:Inserted dataset: PHJ13
+2025-08-30 13:27:25,625 INFO:Inserted dataset: PHJ13
+2025-08-30 13:27:25,662 INFO:Inserted dataset: EPC 1955, EAST WANDOAN PROJECT, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 29/1/2019
+2025-08-30 13:27:25,662 INFO:Inserted dataset: EPC 1955, EAST WANDOAN PROJECT, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 29/1/2019
+2025-08-30 13:27:25,806 INFO:Inserted dataset: PL 279, QGC GLENDOWER 194, WELL COMPLETION REPORT
+2025-08-30 13:27:25,806 INFO:Inserted dataset: PL 279, QGC GLENDOWER 194, WELL COMPLETION REPORT
+2025-08-30 13:27:25,844 INFO:Inserted dataset: HARRY 183
+2025-08-30 13:27:25,844 INFO:Inserted dataset: HARRY 183
+2025-08-30 13:27:25,881 INFO:Inserted dataset: EPM 4023, ALPHA OIL SHALE, COMBINED SIX-MONTHLY/FINAL REPORT FOR PERIOD 20/12/1994 TO 15/4/1996
+2025-08-30 13:27:25,882 INFO:Inserted dataset: EPM 4023, ALPHA OIL SHALE, COMBINED SIX-MONTHLY/FINAL REPORT FOR PERIOD 20/12/1994 TO 15/4/1996
+2025-08-30 13:27:25,920 INFO:Inserted dataset: EPM 193, TECHNICAL REPORT NO. 8, THE RAWBELLE PROSPECTING PROGRAMME, AND TECHNICAL REPORT NO. 10 OPERATION CAVIARE
+2025-08-30 13:27:25,920 INFO:Inserted dataset: EPM 193, TECHNICAL REPORT NO. 8, THE RAWBELLE PROSPECTING PROGRAMME, AND TECHNICAL REPORT NO. 10 OPERATION CAVIARE
+2025-08-30 13:27:25,956 INFO:Inserted dataset: ATP 788, OEA DUKE 19, WELL PRODUCTION EXTENDED TESTING REPORT FOR PERIOD 9/8/2013 TO 8/8/2014
+2025-08-30 13:27:25,956 INFO:Inserted dataset: ATP 788, OEA DUKE 19, WELL PRODUCTION EXTENDED TESTING REPORT FOR PERIOD 9/8/2013 TO 8/8/2014
+2025-08-30 13:27:25,993 INFO:Inserted dataset: EPM 4948 (MOUNT JENNIFER), 4949 (TERMITE), COMBINED REPORT FOR AREA RELINQUISHED 21/9/1989
+2025-08-30 13:27:25,993 INFO:Inserted dataset: EPM 4948 (MOUNT JENNIFER), 4949 (TERMITE), COMBINED REPORT FOR AREA RELINQUISHED 21/9/1989
+2025-08-30 13:27:26,030 INFO:Inserted dataset: 1073044
+2025-08-30 13:27:26,031 INFO:Inserted dataset: 1073044
+2025-08-30 13:27:26,068 INFO:Inserted dataset: WAAR WAAR 17
+2025-08-30 13:27:26,068 INFO:Inserted dataset: WAAR WAAR 17
+2025-08-30 13:27:26,105 INFO:Inserted dataset: EPC 2131, TULLAWARRA, ANNUAL REPORT FOR PERIOD ENDING 22/4/2013
+2025-08-30 13:27:26,105 INFO:Inserted dataset: EPC 2131, TULLAWARRA, ANNUAL REPORT FOR PERIOD ENDING 22/4/2013
+2025-08-30 13:27:26,142 INFO:Inserted dataset: ATP 1103, AEL PD 101A, WELL ABANDONMENT REPORT
+2025-08-30 13:27:26,142 INFO:Inserted dataset: ATP 1103, AEL PD 101A, WELL ABANDONMENT REPORT
+2025-08-30 13:27:26,181 INFO:Inserted dataset: WAROOBY SOUTH 3
+2025-08-30 13:27:26,181 INFO:Inserted dataset: WAROOBY SOUTH 3
+2025-08-30 13:27:26,317 INFO:Inserted dataset: EPM 6467, WONDAI, ANNUAL REPORT FOR PERIOD ENDING 23/7/1997
+2025-08-30 13:27:26,317 INFO:Inserted dataset: EPM 6467, WONDAI, ANNUAL REPORT FOR PERIOD ENDING 23/7/1997
+2025-08-30 13:27:26,354 INFO:Inserted dataset: EPM 1448, SHELBURNE BAY, FINAL REPORT
+2025-08-30 13:27:26,355 INFO:Inserted dataset: EPM 1448, SHELBURNE BAY, FINAL REPORT
+2025-08-30 13:27:26,391 INFO:Inserted dataset: Fair trading court outcomes
+2025-08-30 13:27:26,392 INFO:Inserted dataset: Fair trading court outcomes
+2025-08-30 13:27:26,540 INFO:Inserted dataset: RM90-122-1
+2025-08-30 13:27:26,540 INFO:Inserted dataset: RM90-122-1
+2025-08-30 13:27:26,577 INFO:Inserted dataset: EPM 2651, NORMANBY RIVER, SIX MONTHLY/FINAL REPORT FOR PERIOD ENDING 2/11/1981
+2025-08-30 13:27:26,577 INFO:Inserted dataset: EPM 2651, NORMANBY RIVER, SIX MONTHLY/FINAL REPORT FOR PERIOD ENDING 2/11/1981
+2025-08-30 13:27:26,613 INFO:Inserted dataset: (STOCK ROUTE)ELVIRA
+2025-08-30 13:27:26,613 INFO:Inserted dataset: (STOCK ROUTE)ELVIRA
+2025-08-30 13:27:26,757 INFO:Inserted dataset: KARUMBA KASO_0011_1
+2025-08-30 13:27:26,758 INFO:Inserted dataset: KARUMBA KASO_0011_1
+2025-08-30 13:27:26,901 INFO:Inserted dataset: ATP 259, SSL MOOKOO 1, WELL COMPLETION REPORT
+2025-08-30 13:27:26,902 INFO:Inserted dataset: ATP 259, SSL MOOKOO 1, WELL COMPLETION REPORT
+2025-08-30 13:27:26,939 INFO:Inserted dataset: Geochemistry data for Block CLER2160
+2025-08-30 13:27:26,939 INFO:Inserted dataset: Geochemistry data for Block CLER2160
+2025-08-30 13:27:26,975 INFO:Inserted dataset: EPM 16901, COLLINSVILLE, ANNUAL/PARTIAL RELINQUISHMENT REPORT FOR TWO YEAR PERIOD ENDING 6/7/2012
+2025-08-30 13:27:26,975 INFO:Inserted dataset: EPM 16901, COLLINSVILLE, ANNUAL/PARTIAL RELINQUISHMENT REPORT FOR TWO YEAR PERIOD ENDING 6/7/2012
+2025-08-30 13:27:27,012 INFO:Inserted dataset: Geochemistry data for Block TOWN440
+2025-08-30 13:27:27,012 INFO:Inserted dataset: Geochemistry data for Block TOWN440
+2025-08-30 13:27:27,048 INFO:Inserted dataset: PL 265, AUS CONDABRI 68, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-12
+2025-08-30 13:27:27,048 INFO:Inserted dataset: PL 265, AUS CONDABRI 68, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT, STAGES 1-12
+2025-08-30 13:27:27,086 INFO:Inserted dataset: 40330
+2025-08-30 13:27:27,086 INFO:Inserted dataset: 40330
+2025-08-30 13:27:27,122 INFO:Inserted dataset: GALILEE NS2226
+2025-08-30 13:27:27,123 INFO:Inserted dataset: GALILEE NS2226
+2025-08-30 13:27:27,159 INFO:Inserted dataset: CAIRNS COUNTY NS497
+2025-08-30 13:27:27,159 INFO:Inserted dataset: CAIRNS COUNTY NS497
+2025-08-30 13:27:27,196 INFO:Inserted dataset: EPM 4118, SIX MONTHLY REPORT FOR PERIOD ENDING 17/10/1988, AND FINAL REPORT
+2025-08-30 13:27:27,196 INFO:Inserted dataset: EPM 4118, SIX MONTHLY REPORT FOR PERIOD ENDING 17/10/1988, AND FINAL REPORT
+2025-08-30 13:27:27,346 INFO:Inserted dataset: ATP 692, AUS TALINGA 3, WELL COMPLETION REPORT
+2025-08-30 13:27:27,346 INFO:Inserted dataset: ATP 692, AUS TALINGA 3, WELL COMPLETION REPORT
+2025-08-30 13:27:27,383 INFO:Inserted dataset: East Haldon Sheet 2 40 Chains To An Inch Mine Map Provisional 1963
+2025-08-30 13:27:27,383 INFO:Inserted dataset: East Haldon Sheet 2 40 Chains To An Inch Mine Map Provisional 1963
+2025-08-30 13:27:27,522 INFO:Inserted dataset: MDL 381, WINDERMERE, ANNUAL REPORT FOR PERIOD ENDING 31/8/2011
+2025-08-30 13:27:27,522 INFO:Inserted dataset: MDL 381, WINDERMERE, ANNUAL REPORT FOR PERIOD ENDING 31/8/2011
+2025-08-30 13:27:27,558 INFO:Inserted dataset: EPM 16297, JESSIEVALE, CLONCURRY PROJECT, ANNUAL REPORT FOR PERIOD ENDING 8/3/2011
+2025-08-30 13:27:27,558 INFO:Inserted dataset: EPM 16297, JESSIEVALE, CLONCURRY PROJECT, ANNUAL REPORT FOR PERIOD ENDING 8/3/2011
+2025-08-30 13:27:27,595 INFO:Inserted dataset: EPM 15902, MOUNT COOLON, ANNUAL REPORT FOR PERIOD ENDING 12/6/2010
+2025-08-30 13:27:27,595 INFO:Inserted dataset: EPM 15902, MOUNT COOLON, ANNUAL REPORT FOR PERIOD ENDING 12/6/2010
+2025-08-30 13:27:27,730 INFO:Inserted dataset: EPC 2055, MIMOSA, ANNUAL REPORT FOR PERIOD ENDING 11/6/2017
+2025-08-30 13:27:27,730 INFO:Inserted dataset: EPC 2055, MIMOSA, ANNUAL REPORT FOR PERIOD ENDING 11/6/2017
+2025-08-30 13:27:27,874 INFO:Inserted dataset: ATP 259, SSL COOK 4, WELL PROPOSAL REPORT
+2025-08-30 13:27:27,875 INFO:Inserted dataset: ATP 259, SSL COOK 4, WELL PROPOSAL REPORT
+2025-08-30 13:27:28,016 INFO:Inserted dataset: TIPTON 192
+2025-08-30 13:27:28,016 INFO:Inserted dataset: TIPTON 192
+2025-08-30 13:27:28,053 INFO:Inserted dataset: ATP 708, SSL MOUNT EDEN 1, WELL PROPOSAL REPORT
+2025-08-30 13:27:28,054 INFO:Inserted dataset: ATP 708, SSL MOUNT EDEN 1, WELL PROPOSAL REPORT
+2025-08-30 13:27:28,194 INFO:Inserted dataset: 11698
+2025-08-30 13:27:28,194 INFO:Inserted dataset: 11698
+2025-08-30 13:27:28,337 INFO:Inserted dataset: EPM 14909, MOUNT CHALMERS NORTH PROJECT, ANNUAL REPORT FOR PERIOD ENDING 13/3/2007
+2025-08-30 13:27:28,337 INFO:Inserted dataset: EPM 14909, MOUNT CHALMERS NORTH PROJECT, ANNUAL REPORT FOR PERIOD ENDING 13/3/2007
+2025-08-30 13:27:28,374 INFO:Inserted dataset: ATP 663, AUS WAAR WAAR 11, WELL COMPLETION REPORT
+2025-08-30 13:27:28,374 INFO:Inserted dataset: ATP 663, AUS WAAR WAAR 11, WELL COMPLETION REPORT
+2025-08-30 13:27:28,410 INFO:Inserted dataset: EPM 14812, SHANTY CREEK, FINAL REPORT FOR PERIOD ENDING 17/9/2008
+2025-08-30 13:27:28,411 INFO:Inserted dataset: EPM 14812, SHANTY CREEK, FINAL REPORT FOR PERIOD ENDING 17/9/2008
+2025-08-30 13:27:28,447 INFO:Inserted dataset: EPC 919, GOOMBUNGEE, ACLAND PROJECT AREA, ANNUAL REPORT FOR PERIOD ENDING 3/3/2016
+2025-08-30 13:27:28,447 INFO:Inserted dataset: EPC 919, GOOMBUNGEE, ACLAND PROJECT AREA, ANNUAL REPORT FOR PERIOD ENDING 3/3/2016
+2025-08-30 13:27:28,593 INFO:Inserted dataset: EPM 18170, NATIVE CAT RANGE, ANNUAL REPORT FOR PERIOD ENDING 16/12/2010
+2025-08-30 13:27:28,593 INFO:Inserted dataset: EPM 18170, NATIVE CAT RANGE, ANNUAL REPORT FOR PERIOD ENDING 16/12/2010
+2025-08-30 13:27:28,737 INFO:Inserted dataset: ATP 259, SSL KARWIN 1ST, WELL PROPOSAL REPORT
+2025-08-30 13:27:28,737 INFO:Inserted dataset: ATP 259, SSL KARWIN 1ST, WELL PROPOSAL REPORT
+2025-08-30 13:27:28,773 INFO:Inserted dataset: MOUNT GORDON/ELAINE MARY QUESTEM
+2025-08-30 13:27:28,774 INFO:Inserted dataset: MOUNT GORDON/ELAINE MARY QUESTEM
+2025-08-30 13:27:28,913 INFO:Inserted dataset: GSQ RECORD 1978/12: MICROFLORAL ASSEMBLAGES FROM GSQ EDDYSTONE 1
+2025-08-30 13:27:28,913 INFO:Inserted dataset: GSQ RECORD 1978/12: MICROFLORAL ASSEMBLAGES FROM GSQ EDDYSTONE 1
+2025-08-30 13:27:28,950 INFO:Inserted dataset: EPM 3829, WESTMORELAND, FINAL REPORT
+2025-08-30 13:27:28,951 INFO:Inserted dataset: EPM 3829, WESTMORELAND, FINAL REPORT
+2025-08-30 13:27:28,986 INFO:Inserted dataset: EPM 3215, 3436, MDL 177, STUART PROJECT, COMBINED ANNUAL REPORT FOR PERIOD 1/11/2004 TO 31/10/2005
+2025-08-30 13:27:28,987 INFO:Inserted dataset: EPM 3215, 3436, MDL 177, STUART PROJECT, COMBINED ANNUAL REPORT FOR PERIOD 1/11/2004 TO 31/10/2005
+2025-08-30 13:27:29,023 INFO:Inserted dataset: FAIRVIEW 275
+2025-08-30 13:27:29,023 INFO:Inserted dataset: FAIRVIEW 275
+2025-08-30 13:27:29,060 INFO:Inserted dataset: 28315
+2025-08-30 13:27:29,060 INFO:Inserted dataset: 28315
+2025-08-30 13:27:29,096 INFO:Inserted dataset: SBS queue monthly call centre enquiries
+2025-08-30 13:27:29,097 INFO:Inserted dataset: SBS queue monthly call centre enquiries
+2025-08-30 13:27:29,232 INFO:Inserted dataset: ATP 648, QGC SEAN 4, WELL COMPLETION REPORT
+2025-08-30 13:27:29,232 INFO:Inserted dataset: ATP 648, QGC SEAN 4, WELL COMPLETION REPORT
+2025-08-30 13:27:29,376 INFO:Inserted dataset: KOGAN NORTH 22
+2025-08-30 13:27:29,376 INFO:Inserted dataset: KOGAN NORTH 22
+2025-08-30 13:27:29,413 INFO:Inserted dataset: EPM 16034, WOLFGANG CREEK SOUTH, CLERMONT PROJECT, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 18/6/2009
+2025-08-30 13:27:29,413 INFO:Inserted dataset: EPM 16034, WOLFGANG CREEK SOUTH, CLERMONT PROJECT, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 18/6/2009
+2025-08-30 13:27:29,551 INFO:Inserted dataset: 82
+2025-08-30 13:27:29,551 INFO:Inserted dataset: 82
+2025-08-30 13:27:29,692 INFO:Inserted dataset: PL 267, OEU CONDABRI NORTH 163, WELL COMPLETION REPORT
+2025-08-30 13:27:29,692 INFO:Inserted dataset: PL 267, OEU CONDABRI NORTH 163, WELL COMPLETION REPORT
+2025-08-30 13:27:29,728 INFO:Inserted dataset: HOUSE(OLD SOUTHERN BORE)
+2025-08-30 13:27:29,729 INFO:Inserted dataset: HOUSE(OLD SOUTHERN BORE)
+2025-08-30 13:27:29,765 INFO:Inserted dataset: Orana North 477
+2025-08-30 13:27:29,766 INFO:Inserted dataset: Orana North 477
+2025-08-30 13:27:29,803 INFO:Inserted dataset: ATP 683, ARM CARN BREA 1, WELL COMPLETION REPORT
+2025-08-30 13:27:29,804 INFO:Inserted dataset: ATP 683, ARM CARN BREA 1, WELL COMPLETION REPORT
+2025-08-30 13:27:29,839 INFO:Inserted dataset: NM1-1
+2025-08-30 13:27:29,840 INFO:Inserted dataset: NM1-1
+2025-08-30 13:27:29,876 INFO:Inserted dataset: AGGSNA (AERIAL GEOLOGICAL AND GEOPHYSICAL SURVEY OF NORTHERN AUSTRALIA) QUEENSLAND REPORT NO. 37: THE LOCHNESS AREA, CLONCURRY DISTRICT, AERIAL, GEOLOGICAL, AND GEOPHYSICAL SURVEY OF NORTHERN AUSTRALIA
+2025-08-30 13:27:29,877 INFO:Inserted dataset: AGGSNA (AERIAL GEOLOGICAL AND GEOPHYSICAL SURVEY OF NORTHERN AUSTRALIA) QUEENSLAND REPORT NO. 37: THE LOCHNESS AREA, CLONCURRY DISTRICT, AERIAL, GEOLOGICAL, AND GEOPHYSICAL SURVEY OF NORTHERN AUSTRALIA
+2025-08-30 13:27:30,012 INFO:Inserted dataset: ALTON 5
+2025-08-30 13:27:30,012 INFO:Inserted dataset: ALTON 5
+2025-08-30 13:27:30,049 INFO:Inserted dataset: 2016–17 State Budget—Budget Paper 3—Capital statement
+2025-08-30 13:27:30,049 INFO:Inserted dataset: 2016–17 State Budget—Budget Paper 3—Capital statement
+2025-08-30 13:27:30,086 INFO:Inserted dataset: Digby Peaks 1:100000 Geology Map Compilation 2018
+2025-08-30 13:27:30,086 INFO:Inserted dataset: Digby Peaks 1:100000 Geology Map Compilation 2018
+2025-08-30 13:27:30,235 INFO:Inserted dataset: PPL 116, ANNUAL REPORT FOR PERIOD ENDING 15/2/2012
+2025-08-30 13:27:30,235 INFO:Inserted dataset: PPL 116, ANNUAL REPORT FOR PERIOD ENDING 15/2/2012
+2025-08-30 13:27:30,378 INFO:Inserted dataset: EPC 261, REPORT ON 50 SUB BLOCKS RELINQUISHED 9/9/1986
+2025-08-30 13:27:30,378 INFO:Inserted dataset: EPC 261, REPORT ON 50 SUB BLOCKS RELINQUISHED 9/9/1986
+2025-08-30 13:27:30,522 INFO:Inserted dataset: EPM 2485, PANDANUS CREEK, REPORT ON PORTIONS RELINQUISHED 24/6/1982
+2025-08-30 13:27:30,523 INFO:Inserted dataset: EPM 2485, PANDANUS CREEK, REPORT ON PORTIONS RELINQUISHED 24/6/1982
+2025-08-30 13:27:30,666 INFO:Inserted dataset: EPM 3469, HERBERT CREEK, ANNUAL REPORT FOR PERIOD 5/5/2000 TO 4/5/2001
+2025-08-30 13:27:30,666 INFO:Inserted dataset: EPM 3469, HERBERT CREEK, ANNUAL REPORT FOR PERIOD 5/5/2000 TO 4/5/2001
+2025-08-30 13:27:30,702 INFO:Inserted dataset: NEW BATMAN DNB2
+2025-08-30 13:27:30,703 INFO:Inserted dataset: NEW BATMAN DNB2
+2025-08-30 13:27:30,739 INFO:Inserted dataset: GILBERT GULLY 9
+2025-08-30 13:27:30,739 INFO:Inserted dataset: GILBERT GULLY 9
+2025-08-30 13:27:30,886 INFO:Inserted dataset: EPM 9787, BULLOCK CREEK, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 5/1/1998
+2025-08-30 13:27:30,886 INFO:Inserted dataset: EPM 9787, BULLOCK CREEK, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 5/1/1998
+2025-08-30 13:27:31,028 INFO:Inserted dataset: ATP 259, SIX MONTHLY REPORT FOR PERIOD ENDING 30/6/1986
+2025-08-30 13:27:31,028 INFO:Inserted dataset: ATP 259, SIX MONTHLY REPORT FOR PERIOD ENDING 30/6/1986
+2025-08-30 13:27:31,173 INFO:Inserted dataset: EPM 17995, CANNINGTON NORTH 2, ANNUAL REPORT FOR PERIOD ENDING 5/3/2019
+2025-08-30 13:27:31,173 INFO:Inserted dataset: EPM 17995, CANNINGTON NORTH 2, ANNUAL REPORT FOR PERIOD ENDING 5/3/2019
+2025-08-30 13:27:31,243 INFO:Inserted dataset: PL 198, ARM TIPTON 108, WELL PROPOSAL REPORT
+2025-08-30 13:27:31,243 INFO:Inserted dataset: PL 198, ARM TIPTON 108, WELL PROPOSAL REPORT
+2025-08-30 13:27:31,282 INFO:Inserted dataset: PL 203, OER DURHAM RANCH 94, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT
+2025-08-30 13:27:31,282 INFO:Inserted dataset: PL 203, OER DURHAM RANCH 94, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT
+2025-08-30 13:27:31,318 INFO:Inserted dataset: 22560
+2025-08-30 13:27:31,319 INFO:Inserted dataset: 22560
+2025-08-30 13:27:31,356 INFO:Inserted dataset: 11678
+2025-08-30 13:27:31,356 INFO:Inserted dataset: 11678
+2025-08-30 13:27:31,392 INFO:Inserted dataset: EPC 1037, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 12/6/2008
+2025-08-30 13:27:31,393 INFO:Inserted dataset: EPC 1037, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 12/6/2008
+2025-08-30 13:27:31,430 INFO:Inserted dataset: EPM 9055, KING BRIDGE, REPORT ON AREA RELINQUISHED AFTER TWO YEARS OF TENURE 26/10/1992 TO 25/10/1994
+2025-08-30 13:27:31,431 INFO:Inserted dataset: EPM 9055, KING BRIDGE, REPORT ON AREA RELINQUISHED AFTER TWO YEARS OF TENURE 26/10/1992 TO 25/10/1994
+2025-08-30 13:27:31,467 INFO:Inserted dataset: RM68-06-1
+2025-08-30 13:27:31,467 INFO:Inserted dataset: RM68-06-1
+2025-08-30 13:27:31,504 INFO:Inserted dataset: PL 315, JPL MASCOTTE 1, WELL ABANDONMENT REPORT
+2025-08-30 13:27:31,504 INFO:Inserted dataset: PL 315, JPL MASCOTTE 1, WELL ABANDONMENT REPORT
+2025-08-30 13:27:31,540 INFO:Inserted dataset: Ernest Henry EH769
+2025-08-30 13:27:31,540 INFO:Inserted dataset: Ernest Henry EH769
+2025-08-30 13:27:31,681 INFO:Inserted dataset: ATP 471, MNL NORKAM 1, WELL PROPOSAL REPORT
+2025-08-30 13:27:31,681 INFO:Inserted dataset: ATP 471, MNL NORKAM 1, WELL PROPOSAL REPORT
+2025-08-30 13:27:31,717 INFO:Inserted dataset: EPC 2932, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 27/3/2017
+2025-08-30 13:27:31,717 INFO:Inserted dataset: EPC 2932, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 27/3/2017
+2025-08-30 13:27:31,857 INFO:Inserted dataset: EPC 580, WARDS WELL NORTH, COMBINED ANNUAL/FINAL REPORT FOR PERIOD ENDING 19/3/1999
+2025-08-30 13:27:31,857 INFO:Inserted dataset: EPC 580, WARDS WELL NORTH, COMBINED ANNUAL/FINAL REPORT FOR PERIOD ENDING 19/3/1999
+2025-08-30 13:27:31,893 INFO:Inserted dataset: JACKSON 35
+2025-08-30 13:27:31,893 INFO:Inserted dataset: JACKSON 35
+2025-08-30 13:27:32,034 INFO:Inserted dataset: 42936
+2025-08-30 13:27:32,034 INFO:Inserted dataset: 42936
+2025-08-30 13:27:32,071 INFO:Inserted dataset: CONDABRI SOUTH 45
+2025-08-30 13:27:32,071 INFO:Inserted dataset: CONDABRI SOUTH 45
+2025-08-30 13:27:32,107 INFO:Inserted dataset: EPM 5283, MOUNT LARCO, SIX MONTHLY REPORT FOR PERIOD 14/3/1988 TO 13/9/1988
+2025-08-30 13:27:32,108 INFO:Inserted dataset: EPM 5283, MOUNT LARCO, SIX MONTHLY REPORT FOR PERIOD 14/3/1988 TO 13/9/1988
+2025-08-30 13:27:32,258 INFO:Inserted dataset: EPC 1306, ECHO HILLS, ANNUAL & FINAL REPORT FOR PERIOD ENDING 27/04/2015
+2025-08-30 13:27:32,258 INFO:Inserted dataset: EPC 1306, ECHO HILLS, ANNUAL & FINAL REPORT FOR PERIOD ENDING 27/04/2015
+2025-08-30 13:27:32,295 INFO:Inserted dataset: EPM 3408, MOUNT WARMISTER, REPORT ON AREA RELINQUISHED ON 5/1/1984
+2025-08-30 13:27:32,295 INFO:Inserted dataset: EPM 3408, MOUNT WARMISTER, REPORT ON AREA RELINQUISHED ON 5/1/1984
+2025-08-30 13:27:32,431 INFO:Inserted dataset: EPM 15534, PHANTOM CREEK, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 26/3/2009
+2025-08-30 13:27:32,431 INFO:Inserted dataset: EPM 15534, PHANTOM CREEK, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 26/3/2009
+2025-08-30 13:27:32,467 INFO:Inserted dataset: EPM 3976, TEXAS, RELINQUISHMENT REPORT ON AREA TO 4/3/1987
+2025-08-30 13:27:32,468 INFO:Inserted dataset: EPM 3976, TEXAS, RELINQUISHMENT REPORT ON AREA TO 4/3/1987
+2025-08-30 13:27:32,505 INFO:Inserted dataset: Damage Assessment and Reconstruction Monitoring - Suburb and LGA Summary – Tropical Cyclone Oswald and Associated Rainfall and Flooding, 21-29 January 2013
+2025-08-30 13:27:32,505 INFO:Inserted dataset: Damage Assessment and Reconstruction Monitoring - Suburb and LGA Summary – Tropical Cyclone Oswald and Associated Rainfall and Flooding, 21-29 January 2013
+2025-08-30 13:27:32,542 INFO:Inserted dataset: EPM 26005, SILVER QUEEN, ANNUAL REPORT FOR PERIOD ENDING 14/6/2017
+2025-08-30 13:27:32,543 INFO:Inserted dataset: EPM 26005, SILVER QUEEN, ANNUAL REPORT FOR PERIOD ENDING 14/6/2017
+2025-08-30 13:27:32,579 INFO:Inserted dataset: M 79V
+2025-08-30 13:27:32,579 INFO:Inserted dataset: M 79V
+2025-08-30 13:27:32,719 INFO:Inserted dataset: ATP 564, CAP PARANUI 1, WELL COMPLETION REPORT
+2025-08-30 13:27:32,720 INFO:Inserted dataset: ATP 564, CAP PARANUI 1, WELL COMPLETION REPORT
+2025-08-30 13:27:32,756 INFO:Inserted dataset: PL 131, SSL JUNO 4, WELL COMPLETION REPORT
+2025-08-30 13:27:32,756 INFO:Inserted dataset: PL 131, SSL JUNO 4, WELL COMPLETION REPORT
+2025-08-30 13:27:32,895 INFO:Inserted dataset: GALILEE NS18
+2025-08-30 13:27:32,895 INFO:Inserted dataset: GALILEE NS18
+2025-08-30 13:27:32,931 INFO:Inserted dataset: 11761
+2025-08-30 13:27:32,931 INFO:Inserted dataset: 11761
+2025-08-30 13:27:32,978 INFO:Inserted dataset: PL 37, SSL BRUMBY 11, WELL COMPLETION REPORT
+2025-08-30 13:27:32,978 INFO:Inserted dataset: PL 37, SSL BRUMBY 11, WELL COMPLETION REPORT
+2025-08-30 13:27:33,035 INFO:Inserted dataset: EPM 16519, MOUNT MARGARET, ANNUAL REPORT FOR PERIOD ENDING 24/6/2013
+2025-08-30 13:27:33,035 INFO:Inserted dataset: EPM 16519, MOUNT MARGARET, ANNUAL REPORT FOR PERIOD ENDING 24/6/2013
+2025-08-30 13:27:33,074 INFO:Inserted dataset: EPC550 GLENCORE REPORT IN LIEU OF CR83458 ANNUAL ACTIVITY REPORT FOR PERIOD ENDING 15 MARCH 2014
+2025-08-30 13:27:33,074 INFO:Inserted dataset: EPC550 GLENCORE REPORT IN LIEU OF CR83458 ANNUAL ACTIVITY REPORT FOR PERIOD ENDING 15 MARCH 2014
+2025-08-30 13:27:33,112 INFO:Inserted dataset: Eungella Gold And Mineral Field Mine Map Provisional
+2025-08-30 13:27:33,112 INFO:Inserted dataset: Eungella Gold And Mineral Field Mine Map Provisional
+2025-08-30 13:27:33,149 INFO:Inserted dataset: 20766
+2025-08-30 13:27:33,149 INFO:Inserted dataset: 20766
+2025-08-30 13:27:33,295 INFO:Inserted dataset: EPM 26408, EWAN, ANNUAL/FINAL REPORT FOR PERIOD ENDING 4/10/2019
+2025-08-30 13:27:33,296 INFO:Inserted dataset: EPM 26408, EWAN, ANNUAL/FINAL REPORT FOR PERIOD ENDING 4/10/2019
+2025-08-30 13:27:33,333 INFO:Inserted dataset: PL 99, SSL FAIRVIEW 131, WELL PROPOSAL REPORT
+2025-08-30 13:27:33,333 INFO:Inserted dataset: PL 99, SSL FAIRVIEW 131, WELL PROPOSAL REPORT
+2025-08-30 13:27:33,370 INFO:Inserted dataset: ALTON 2D 1980
+2025-08-30 13:27:33,370 INFO:Inserted dataset: ALTON 2D 1980
+2025-08-30 13:27:33,504 INFO:Inserted dataset: WEST WOOLSTONE (NO.1)
+2025-08-30 13:27:33,504 INFO:Inserted dataset: WEST WOOLSTONE (NO.1)
+2025-08-30 13:27:33,539 INFO:Inserted dataset: Remuneration Information for government body — Valuers Registration Board of Queensland
+2025-08-30 13:27:33,540 INFO:Inserted dataset: Remuneration Information for government body — Valuers Registration Board of Queensland
+2025-08-30 13:27:33,576 INFO:Inserted dataset: MDL 251, CHARTERS TOWERS GOLD PROJECT, FINAL REPORT FOR PERIOD ENDING 30/6/2016
+2025-08-30 13:27:33,577 INFO:Inserted dataset: MDL 251, CHARTERS TOWERS GOLD PROJECT, FINAL REPORT FOR PERIOD ENDING 30/6/2016
+2025-08-30 13:27:33,613 INFO:Inserted dataset: GALILEE NS396
+2025-08-30 13:27:33,614 INFO:Inserted dataset: GALILEE NS396
+2025-08-30 13:27:33,651 INFO:Inserted dataset: ATP 374, SURAT BASIN, 1987 MILES SEISMIC SURVEY INCLUDING REPROCESSED LINES FROM 1985 TINHUT SEISMIC SURVEY AND 1979 COLUMBOOLA (SHELL) SEISMIC SURVEY
+2025-08-30 13:27:33,652 INFO:Inserted dataset: ATP 374, SURAT BASIN, 1987 MILES SEISMIC SURVEY INCLUDING REPROCESSED LINES FROM 1985 TINHUT SEISMIC SURVEY AND 1979 COLUMBOOLA (SHELL) SEISMIC SURVEY
+2025-08-30 13:27:33,652 INFO:Data.gov.au returned 200 datasets
+2025-08-30 13:27:33,652 INFO:Harvest completed.
+2025-08-30 13:27:33,653 INFO:Harvest completed.
