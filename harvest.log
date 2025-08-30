@@ -1,0 +1,14 @@
+2025-08-30 10:45:07,309 INFO:Database initialized and table ready.
+2025-08-30 10:45:07,319 ERROR:Failed to process ABS: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-08-30 10:45:07,320 ERROR:Failed to process Data.gov.au: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-08-30 10:45:07,321 ERROR:Failed to process AIHW Reports: No module named 'harvest.connectors.html_connector'
+2025-08-30 10:49:22,158 INFO:Database initialized and table ready.
+2025-08-30 10:49:22,160 INFO:ABS returned 2 datasets
+2025-08-30 10:49:22,161 ERROR:Failed to process ABS: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-08-30 10:49:22,161 INFO:Data.gov.au returned 1 datasets
+2025-08-30 10:49:22,162 ERROR:Failed to process Data.gov.au: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-08-30 10:49:22,162 ERROR:Failed to process AIHW Reports: No module named 'harvest.connectors.html_connector'

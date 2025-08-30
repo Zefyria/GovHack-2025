@@ -25,7 +25,7 @@ def init_db():
     cur.execute("""
         CREATE TABLE IF NOT EXISTS govhack2025.datasets (
             id SERIAL PRIMARY KEY,
-            name TEXT,
+            name TEXT UNIQUE,
             description TEXT,
             available BOOLEAN,
             download TEXT

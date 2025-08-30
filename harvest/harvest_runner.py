@@ -16,6 +16,7 @@ def run_harvest():
             module = importlib.import_module(connector_module_name)
             if hasattr(module, "harvest"):
                 datasets = module.harvest(entry["url"])
+                logger.info(f"{entry['name']} returned {len(datasets)} datasets")
                 for ds in datasets:
                     upsert_dataset(conn, ds)
                     logger.info(f"Upserted dataset: {ds['name']}")
