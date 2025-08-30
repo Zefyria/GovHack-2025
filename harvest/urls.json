@@ -2,13 +2,29 @@
     {
         "name": "Australian Bureau of Statistics",
         "url": "https://data.api.abs.gov.au/rest/dataflow/ABS",
-        "type": "api",
+        "type": "abs api",
         "notes": ""
     },
     {
         "name": "Data.gov.au",
-        "url": "https://data.gov.au/api/3/action/package_search?rows=50",
-        "type": "api",
+        "url": "https://data.gov.au/api/3/action/package_search",
+        "type": "data.gov.au api",
         "notes": ""
+    },
+    {
+        "name": "ATO Taxation Statistics 2022-23",
+        "url": [
+            "https://www.data.gov.au/data/dataset/taxation-statistics-2022-23/resource/b4edf378-84cd-4685-8978-338d3d453250",
+            "https://www.data.gov.au/data/dataset/taxation-statistics-2022-23/resource/5565d6ab-9e53-43c5-b4a7-17d1dd9414b6",
+            "https://www.data.gov.au/data/dataset/taxation-statistics-2022-23/resource/a560da14-2771-4e98-966d-d14b56d48cad",
+            "https://www.data.gov.au/data/dataset/taxation-statistics-2022-23/resource/b7dacde3-e0e5-41b7-97f4-e86a9f0b0a61",
+            "https://www.data.gov.au/data/dataset/taxation-statistics-2022-23/resource/b1308487-883e-407e-af33-6ebdf7a049b4",
+            "https://www.data.gov.au/data/dataset/taxation-statistics-2022-23/resource/deb252af-a682-410b-861f-be48a10ff45c",
+            "https://www.data.gov.au/data/dataset/taxation-statistics-2022-23/resource/46cdff78-a46d-4e0c-bd15-d2f7feb0f442",
+            "https://www.data.gov.au/data/dataset/taxation-statistics-2022-23/resource/a0fc81a1-b46d-49e2-b905-36482b560e01",
+            "https://www.data.gov.au/data/dataset/taxation-statistics-2022-23/resource/e4110319-a2d6-4f30-a68c-d439f372f0cf",
+            "https://www.data.gov.au/data/dataset/taxation-statistics-2022-23/resource/59ca5523-0c66-4026-9067-1725c3febbd0"
+        ],
+        "type": "ato xlsx"
     }
 ]
