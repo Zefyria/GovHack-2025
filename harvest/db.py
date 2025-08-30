@@ -1,8 +1,8 @@
 import psycopg2
 from psycopg2 import sql
 from getpass import getpass
-from .logging_config import logger
 
+# Database configuration
 DB_CONFIG = {
     "host": "localhost",
     "port": 5432,
@@ -12,45 +12,75 @@ DB_CONFIG = {
 }
 
 def get_connection():
+    """Return a psycopg2 connection using DB_CONFIG."""
     if not DB_CONFIG["password"]:
         DB_CONFIG["password"] = getpass("Enter PostgreSQL password: ")
-    conn = psycopg2.connect(**DB_CONFIG)
-    return conn
+    return psycopg2.connect(**DB_CONFIG)
 
 def init_db():
+    """Create schema and datasets table if not exists."""
     conn = get_connection()
     cur = conn.cursor()
+
     # Create schema if not exists
     cur.execute("CREATE SCHEMA IF NOT EXISTS govhack2025;")
-    # Create table if not exists
+
+    # Create datasets table
     cur.execute("""
         CREATE TABLE IF NOT EXISTS govhack2025.datasets (
             id SERIAL PRIMARY KEY,
-            name TEXT UNIQUE,
+            source_name TEXT NOT NULL,
+            name TEXT,
             description TEXT,
             available BOOLEAN,
-            download TEXT
+            access_type TEXT,
+            download_url TEXT,
+            last_updated DATE,
+            UNIQUE(source_name, name)
         );
     """)
+
     conn.commit()
     cur.close()
     conn.close()
+    print("Database initialized and table ready.")
 
-def refresh_dataset(dataset):
-    """Delete any existing dataset with same name and insert the new one"""
+def refresh_source_in_db(source_name):
+    """Delete all datasets for a given source before refreshing."""
+    conn = get_connection()
+    cur = conn.cursor()
+    cur.execute(
+        "DELETE FROM govhack2025.datasets WHERE source_name = %s",
+        (source_name,)
+    )
+    conn.commit()
+    cur.close()
+    conn.close()
+    print(f"Previous datasets for '{source_name}' deleted.")
+
+def insert_dataset(dataset, source_name):
+    """
+    Insert a dataset into the database.
+    dataset: dict with keys name, description, available, access_type, download_url, last_updated
+    """
     conn = get_connection()
     cur = conn.cursor()
     try:
-        cur.execute("DELETE FROM govhack2025.datasets WHERE name = %s;", (dataset["name"],))
         cur.execute("""
-            INSERT INTO govhack2025.datasets (name, description, available, download)
-            VALUES (%s, %s, %s, %s);
-        """, (dataset["name"], dataset["description"], dataset["available"], dataset["download"]))
+            INSERT INTO govhack2025.datasets 
+            (source_name, name, description, available, access_type, download_url, last_updated)
+            VALUES (%s, %s, %s, %s, %s, %s, %s)
+            ON CONFLICT (source_name, name) DO NOTHING;
+        """, (
+            source_name,
+            dataset.get("name"),
+            dataset.get("description"),
+            dataset.get("available"),
+            dataset.get("access_type"),
+            dataset.get("download_url"),
+            dataset.get("last_updated")
+        ))
         conn.commit()
-        logger.info(f"Inserted dataset: {dataset['name']}")
-    except Exception as e:
-        logger.error(f"Failed to insert dataset {dataset['name']}: {e}")
-        conn.rollback()
     finally:
         cur.close()
         conn.close()

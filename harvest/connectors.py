@@ -1,83 +1,58 @@
-import json
 import requests
 from bs4 import BeautifulSoup
-from .logging_config import logger
-from .db import refresh_dataset
+import pandas as pd
+import logging
+
+logger = logging.getLogger(__name__)
 
 def fetch_api_data(source):
-    url = source["url"]
-    headers = source.get("headers", {"User-Agent": "PAKFA-GovHack-2025/1.0"})
-    try:
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()
-        data = response.json()
-        datasets = []
+    datasets = []
+    url = source.get("url")
+    headers = {"User-Agent": "Mozilla/5.0"}
 
-        # generic handling: extract dataset info if it's a list of objects
-        if isinstance(data, list):
-            for d in data:
+    if source["type"] == "api":
+        params = {"q": "", "rows": source.get("max_rows", 10)}
+        response = requests.get(url, headers=headers, params=params)
+        if response.status_code == 200:
+            data = response.json()
+            for result in data.get("result", {}).get("results", []):
                 datasets.append({
-                    "name": d.get("title") or d.get("name") or "Unnamed Dataset",
-                    "description": d.get("description") or "",
+                    "name": result.get("title"),
+                    "description": result.get("notes", ""),
                     "available": True,
-                    "download": d.get("format") or d.get("download_url") or ""
-                })
-        elif isinstance(data, dict) and "data" in data:
-            for d in data["data"]:
-                datasets.append({
-                    "name": d.get("title") or d.get("name") or "Unnamed Dataset",
-                    "description": d.get("description") or "",
-                    "available": True,
-                    "download": d.get("format") or d.get("download_url") or ""
+                    "download": result.get("resources", [{}])[0].get("url")
                 })
         else:
-            logger.warning(f"{source['name']} API returned unexpected format")
-        return datasets
-    except Exception as e:
-        logger.error(f"Failed to harvest {source['name']}: {e}")
-        return []
-
-def scrape_html(source):
-    url = source["url"]
-    headers = {"User-Agent": "PAKFA-GovHack-2025/1.0"}
-    try:
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, "lxml")
-        datasets = []
-
-        # generic scraping: find <a> tags with downloadable links
-        for a in soup.find_all("a", href=True):
-            href = a["href"]
-            if any(ext in href.lower() for ext in [".csv", ".xls", ".xlsx", ".json"]):
+            logger.error(f"Failed to fetch API data: {response.status_code}")
+    
+    elif source["type"] == "html_aihw":
+        page = 1
+        fetched_rows = 0
+        max_rows = source.get("max_rows", 10)
+        while fetched_rows < max_rows:
+            page_url = f"{url}?page={page}"
+            resp = requests.get(page_url, headers=headers)
+            if resp.status_code != 200:
+                break
+            soup = BeautifulSoup(resp.text, "html.parser")
+            links = soup.select("a[href$='.xlsx'], a[href$='.pdf']")
+            for link in links:
+                if fetched_rows >= max_rows:
+                    break
                 datasets.append({
-                    "name": a.text.strip() or "Unnamed Dataset",
-                    "description": "",
+                    "name": link.text.strip(),
+                    "description": "AIHW report",
                     "available": True,
-                    "download": href
+                    "download": link['href']
                 })
-        return datasets
-    except Exception as e:
-        logger.error(f"Failed to harvest {source['name']}: {e}")
-        return []
+                fetched_rows += 1
+            page += 1
 
-def harvest_all(urls_file="urls.json"):
-    with open(urls_file, "r") as f:
-        sources = json.load(f)
+    return datasets
 
+def fetch_all_data(sources):
+    all_datasets = []
     for source in sources:
-        logger.info(f"Processing {source['name']} ({source['type']})")
-        if source["type"].lower() == "api":
-            datasets = fetch_api_data(source)
-        elif source["type"].lower() == "html":
-            datasets = scrape_html(source)
-        else:
-            logger.warning(f"Unknown source type for {source['name']}")
-            datasets = []
-
-        if datasets:
-            for ds in datasets:
-                refresh_dataset(ds)
-            logger.info(f"{source['name']} returned {len(datasets)} datasets")
-        else:
-            logger.info(f"{source['name']} returned 0 datasets")
+        datasets = fetch_api_data(source)
+        all_datasets.extend(datasets)
+    return all_datasets

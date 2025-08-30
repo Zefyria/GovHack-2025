@@ -1,20 +1,23 @@
 [
-  {
-    "name": "Australian Bureau of Statistics",
-    "url": "https://data.api.abs.gov.au/rest/data/ABS,CPI,1.0.0/1234?startPeriod=2020&endPeriod=2021&format=json",
-    "type": "api",
-    "notes": "Consumer Price Index data from the ABS Data API"
-  },
-  {
-    "name": "Data.gov.au",
-    "url": "https://data.gov.au/",
-    "type": "api",
-    "notes": "CKAN API"
-  },
-  {
-    "name": "AIHW Reports",
-    "url": "https://www.aihw.gov.au/reports-data",
-    "type": "html",
-    "notes": "HTML scraping for downloadable files"
-  }
+    {
+        "name": "Australian Bureau of Statistics",
+        "url": "https://api.data.abs.gov.au/data/ABS,CPI,1.0.0/0?startPeriod=2020&endPeriod=2021&format=json",
+        "type": "api",
+        "notes": "ABS Consumer Price Index Data",
+        "max_rows": 200
+    },
+    {
+        "name": "Data.gov.au",
+        "url": "https://data.gov.au/api/3/action/package_search?q=&rows=200",
+        "type": "api",
+        "notes": "Australian Government Open Data",
+        "max_rows": 200
+    },
+    {
+        "name": "AIHW Reports",
+        "url": "https://www.aihw.gov.au/reports-data",
+        "type": "html_aihw",
+        "notes": "Australian Institute of Health and Welfare Reports",
+        "max_rows": 200
+    }
 ]

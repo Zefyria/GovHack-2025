@@ -98,3 +98,83 @@
 2025-08-30 11:32:55,289 INFO:Initializing database...
 2025-08-30 11:32:57,395 INFO:Database initialized and table ready.
 2025-08-30 11:32:57,395 INFO:Starting harvest...
+2025-08-30 11:35:35,730 INFO:Initializing database...
+2025-08-30 11:35:37,814 INFO:Database initialized and table ready.
+2025-08-30 11:36:01,281 INFO:Initializing database...
+2025-08-30 11:36:02,788 INFO:Database initialized and table ready.
+2025-08-30 11:36:02,789 INFO:Starting harvest...
+2025-08-30 11:36:02,790 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 11:36:03,490 ERROR:Failed to harvest Australian Bureau of Statistics: 404 Client Error: Not Found for url: https://data.api.abs.gov.au/rest/data/ABS,CPI,1.0.0/1234?startPeriod=2020&endPeriod=2021&format=json
+2025-08-30 11:36:03,492 INFO:Australian Bureau of Statistics returned 0 datasets
+2025-08-30 11:36:03,492 INFO:Processing Data.gov.au (api)
+2025-08-30 11:36:04,162 ERROR:Failed to harvest Data.gov.au: Expecting value: line 1 column 1 (char 0)
+2025-08-30 11:36:04,164 INFO:Data.gov.au returned 0 datasets
+2025-08-30 11:36:04,164 INFO:Processing AIHW Reports (html)
+2025-08-30 11:36:05,338 INFO:AIHW Reports returned 0 datasets
+2025-08-30 11:36:05,338 INFO:Harvest completed.
+2025-08-30 11:40:17,584 INFO:Initializing database...
+2025-08-30 11:40:20,422 INFO:Database initialized and table ready.
+2025-08-30 11:40:20,422 INFO:Starting harvest...
+2025-08-30 11:40:20,430 INFO:Processing Australian Bureau of Statistics (api)
+2025-08-30 11:40:20,430 WARNING:No URL provided for Australian Bureau of Statistics
+2025-08-30 11:40:20,431 INFO:Australian Bureau of Statistics returned 0 datasets
+2025-08-30 11:40:20,431 INFO:Processing Data.gov.au (api)
+2025-08-30 11:40:21,073 INFO:Inserted dataset: Register of Native Title Claims
+2025-08-30 11:40:21,113 INFO:Inserted dataset: GILBERT GULLY 9
+2025-08-30 11:40:21,259 INFO:Inserted dataset: EPM 9787, BULLOCK CREEK, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 5/1/1998
+2025-08-30 11:40:21,402 INFO:Inserted dataset: ATP 259, SIX MONTHLY REPORT FOR PERIOD ENDING 30/6/1986
+2025-08-30 11:40:21,440 INFO:Inserted dataset: EPM 17995, CANNINGTON NORTH 2, ANNUAL REPORT FOR PERIOD ENDING 5/3/2019
+2025-08-30 11:40:21,478 INFO:Inserted dataset: PL 198, ARM TIPTON 108, WELL PROPOSAL REPORT
+2025-08-30 11:40:21,515 INFO:Inserted dataset: PL 203, OER DURHAM RANCH 94, HYDRAULIC FRACTURING ACTIVITIES COMPLETION REPORT
+2025-08-30 11:40:21,553 INFO:Inserted dataset: 22560
+2025-08-30 11:40:21,703 INFO:Inserted dataset: 11678
+2025-08-30 11:40:21,742 INFO:Inserted dataset: EPC 1037, PARTIAL RELINQUISHMENT REPORT FOR PERIOD ENDING 12/6/2008
+2025-08-30 11:40:21,742 INFO:Data.gov.au returned 10 datasets
+2025-08-30 11:40:21,742 INFO:Processing AIHW Reports (html)
+2025-08-30 11:40:21,742 WARNING:No URL provided for AIHW Reports
+2025-08-30 11:40:21,742 INFO:AIHW Reports returned 0 datasets
+2025-08-30 11:40:21,743 INFO:Harvest completed.
+2025-08-30 11:45:51,502 INFO:Initializing database...
+2025-08-30 11:45:53,766 INFO:Database initialized and table ready.
+2025-08-30 11:45:53,766 INFO:Starting harvest...
+2025-08-30 11:45:53,767 INFO:Processing Data.gov.au (api)
+2025-08-30 11:55:10,631 INFO:Initializing database...
+2025-08-30 11:55:13,386 INFO:Database initialized and table ready.
+2025-08-30 11:55:13,387 INFO:Starting harvest...
+2025-08-30 11:55:13,387 INFO:Processing Data.gov.au (api)
+2025-08-30 12:20:23,554 [INFO] Initializing database...
+2025-08-30 12:20:28,170 [INFO] Starting harvest...
+2025-08-30 12:20:28,171 [INFO] Processing Australian Bureau of Statistics (api)
+2025-08-30 12:20:28,342 [ERROR] Failed to harvest Australian Bureau of Statistics: column "source_name" does not exist
+LINE 1: DELETE FROM govhack2025.datasets WHERE source_name = 'Austra...
+                                               ^
+
+2025-08-30 12:20:28,343 [INFO] Processing Data.gov.au (api)
+2025-08-30 12:20:28,477 [ERROR] Failed to harvest Data.gov.au: column "source_name" does not exist
+LINE 1: DELETE FROM govhack2025.datasets WHERE source_name = 'Data.g...
+                                               ^
+
+2025-08-30 12:20:28,477 [INFO] Processing AIHW Reports (html_aihw)
+2025-08-30 12:20:28,514 [ERROR] Failed to harvest AIHW Reports: column "source_name" does not exist
+LINE 1: DELETE FROM govhack2025.datasets WHERE source_name = 'AIHW R...
+                                               ^
+
+2025-08-30 12:20:28,514 [INFO] Harvest completed.
+2025-08-30 12:21:34,550 [INFO] Initializing database...
+2025-08-30 12:21:36,602 [INFO] Starting harvest...
+2025-08-30 12:21:36,603 [INFO] Processing Australian Bureau of Statistics (api)
+2025-08-30 12:21:36,642 [ERROR] Failed to harvest Australian Bureau of Statistics: column "source_name" does not exist
+LINE 1: DELETE FROM govhack2025.datasets WHERE source_name = 'Austra...
+                                               ^
+
+2025-08-30 12:21:36,642 [INFO] Processing Data.gov.au (api)
+2025-08-30 12:21:36,679 [ERROR] Failed to harvest Data.gov.au: column "source_name" does not exist
+LINE 1: DELETE FROM govhack2025.datasets WHERE source_name = 'Data.g...
+                                               ^
+
+2025-08-30 12:21:36,679 [INFO] Processing AIHW Reports (html_aihw)
+2025-08-30 12:21:36,715 [ERROR] Failed to harvest AIHW Reports: column "source_name" does not exist
+LINE 1: DELETE FROM govhack2025.datasets WHERE source_name = 'AIHW R...
+                                               ^
+
+2025-08-30 12:21:36,716 [INFO] Harvest completed.
