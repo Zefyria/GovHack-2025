@@ -1,12 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GovHack Datasets</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GovHack 2025 Datasets</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+/* Sticky header block including filters */
+#header {
+  background-color: #99bac2;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Filters row inside header, still sticky */
+#filters {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Scrollable table container */
+#table-container {
+  max-height: 70vh;
+  overflow-y: auto;
+  margin: 0 20px 20px 20px;
+}
+
+/* Table styling */
+#datasets-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#datasets-table thead {
+  background-color: #d2e1e4;
+  position: sticky;
+  top: 80px; /* height of #header including padding */
+  z-index: 9;
+}
+
+#datasets-table th, #datasets-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+#datasets-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#datasets-table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Dropdown and search inputs */
+select, input[type="text"] {
+  padding: 5px 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Fetched count */
+#fetched-count {
+  margin-top: 5px;
+  font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+<div id="header">
+    <h1>GovHack 2025 Datasets</h1>
+    <div class="filters">
+        <input type="text" placeholder="Search datasets..." id="search">
+        <select id="source-filter">
+            <option value="">All Sources</option>
+        </select>
+        <span id="fetched-count">Fetched 0 datasets</span>
+    </div>
+</div>
+
+<main>
+    <div id="table-cotainer">
+      <table id="datasets-table">
+          <thead>
+              <tr>
+                  <th>Source</th>
+                  <th>Title</th>
+                  <th>Description</th>
+                  <th>URL</th>
+                  <th>Format</th>
+              </tr>
+          </thead>
+          <tbody id="datasets-body">
+              <!-- Rows populated by JS -->
+          </tbody>
+      </table>
+    </div>
+</main>
+
+<script>
+    async function loadDatasets() {
+      try {
+        const res = await fetch('http://localhost:8000/datasets'); // your backend endpoint
+        const datasets = await res.json();
+
+        // Update fetched count
+        document.getElementById('fetched-count').textContent =
+          `Fetched ${datasets.length} datasets`;
+
+        // Populate source dropdown dynamically
+        const sources = [...new Set(datasets.map(d => d.source_name))];
+        const sourceFilter = document.getElementById('source-filter');
+        sources.forEach(source => {
+          const option = document.createElement('option');
+          option.value = source;
+          option.textContent = source;
+          sourceFilter.appendChild(option);
+        });
+
+        // Populate table
+        const tbody = document.querySelector('#datasets-table tbody');
+        datasets.forEach(d => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${d.source_name}</td>
+            <td>${d.title}</td>
+            <td>${d.description || ''}</td>
+            <td><a href="${d.url}" target="_blank">link</a></td>
+            <td>${d.format_ || ''}</td>
+          `;
+          tbody.appendChild(tr);
+        });
+      } catch (err) {
+        console.error('Failed to fetch datasets:', err);
+      }
+    }
+
+    // Run on page load
+    window.addEventListener('DOMContentLoaded', loadDatasets);
+  </script>
+</body>
 </html>
