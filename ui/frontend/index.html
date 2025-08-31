@@ -3,152 +3,252 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GovHack 2025 Datasets</title>
+<title>Press Any Key For Answers (GovHack 2025)</title>
 <style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: white;
-}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #fff;
+    }
 
-/* Sticky header block including filters */
-#header {
-  background-color: #99bac2;
-  padding: 20px;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
+    /* Header block */
+    #headerBlock {
+        position: sticky;
+        top: 0;
+        background: #9fbdd4;
+        padding: 15px 20px;
+        z-index: 100;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
 
-/* Filters row inside header, still sticky */
-#filters {
-  margin-top: 10px;
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
+    #headerBlock h1 {
+        margin: 0 0 10px 0;
+    }
 
-/* Scrollable table container */
-#table-container {
-  max-height: 70vh;
-  overflow-y: auto;
-  margin: 0 20px 20px 20px;
-}
+    #headerBlock .filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+    }
 
-/* Table styling */
-#datasets-table {
-  width: 100%;
-  border-collapse: collapse;
-}
+    input, select {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
 
-#datasets-table thead {
-  background-color: #d2e1e4;
-  position: sticky;
-  top: 80px; /* height of #header including padding */
-  z-index: 9;
-}
+    #status {
+        margin-left: auto;
+        font-weight: bold;
+    }
 
-#datasets-table th, #datasets-table td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: left;
-}
+    /* Table wrapper for scroll on small screens */
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+    }
 
-#datasets-table tbody tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
+    table {
+        width: 100%;
+        min-width: 1000px;
+        border-collapse: collapse;
+        margin: 0;
+        table-layout: fixed;
+    }
 
-#datasets-table tbody tr:hover {
-  background-color: #e0e0e0;
-}
+    thead {
+        background: #dce9f5;
+        position: sticky;
+        top: 0px; /* header block + pagination controls */
+        z-index: 50;
+    }
 
-/* Dropdown and search inputs */
-select, input[type="text"] {
-  padding: 5px 8px;
-  font-size: 14px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-}
+    th, td {
+        padding: 8px 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        word-wrap: break-word;
+    }
 
-/* Fetched count */
-#fetched-count {
-  margin-top: 5px;
-  font-weight: bold;
-}
+    tbody tr:nth-child(even) {
+        background: #f9f9f9;
+    }
+
+    tbody tr:hover {
+        background: #e1f0fb;
+    }
+
+    a {
+        color: #0077cc;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* Column widths */
+    th:nth-child(1), td:nth-child(1) { width: 120px; } /* Source */
+    th:nth-child(4), td:nth-child(4) { width: 120px; } /* Link */
+    th:nth-child(5), td:nth-child(5) { width: 80px; }  /* Format */
+    th:nth-child(2), td:nth-child(2),
+    th:nth-child(3), td:nth-child(3) {
+        width: calc((100% - 320px) / 2);
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        th:nth-child(2), td:nth-child(2),
+        th:nth-child(3), td:nth-child(3) {
+            width: 250px;
+        }
+    }
+
+    /* Pagination */
+    .pagination {
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .pagination button {
+        padding: 6px 12px;
+        border: 1px solid #aaa;
+        background: #fff;
+        cursor: pointer;
+    }
+
+    .pagination button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
 </style>
-
 </head>
 <body>
-<div id="header">
-    <h1>GovHack 2025 Datasets</h1>
+
+<div id="headerBlock">
+    <h1>Press Any Key For Answers (GovHack 2025) national database</h1>
     <div class="filters">
-        <input type="text" placeholder="Search datasets..." id="search">
-        <select id="source-filter">
+        <input type="text" id="searchInput" placeholder="Search datasets...">
+        <select id="sourceFilter">
             <option value="">All Sources</option>
         </select>
-        <span id="fetched-count">Fetched 0 datasets</span>
+        <span id="status">Loading datasets...</span>
     </div>
 </div>
 
-<main>
-    <div id="table-cotainer">
-      <table id="datasets-table">
-          <thead>
-              <tr>
-                  <th>Source</th>
-                  <th>Title</th>
-                  <th>Description</th>
-                  <th>URL</th>
-                  <th>Format</th>
-              </tr>
-          </thead>
-          <tbody id="datasets-body">
-              <!-- Rows populated by JS -->
-          </tbody>
-      </table>
-    </div>
-</main>
+<!-- Pagination above table -->
+<div class="pagination">
+    <button id="prev-btn" disabled>Previous</button>
+    <span id="page-info"></span>
+    <button id="next-btn" disabled>Next</button>
+</div>
+
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Source</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Link</th>
+                <th>Format</th>
+            </tr>
+        </thead>
+        <tbody id="dataset-table">
+            <!-- Filled dynamically -->
+        </tbody>
+    </table>
+</div>
 
 <script>
-    async function loadDatasets() {
-      try {
-        const res = await fetch('http://localhost:8000/datasets'); // your backend endpoint
-        const datasets = await res.json();
+let datasets = [];
+let currentPage = 1;
+const pageSize = 50;
 
-        // Update fetched count
-        document.getElementById('fetched-count').textContent =
-          `Fetched ${datasets.length} datasets`;
+const tableBody = document.getElementById("dataset-table");
+const statusDiv = document.getElementById("status");
+const prevBtn = document.getElementById("prev-btn");
+const nextBtn = document.getElementById("next-btn");
+const pageInfo = document.getElementById("page-info");
+const searchInput = document.getElementById("searchInput");
+const sourceFilter = document.getElementById("sourceFilter");
 
-        // Populate source dropdown dynamically
-        const sources = [...new Set(datasets.map(d => d.source_name))];
-        const sourceFilter = document.getElementById('source-filter');
-        sources.forEach(source => {
-          const option = document.createElement('option');
-          option.value = source;
-          option.textContent = source;
-          sourceFilter.appendChild(option);
-        });
-
-        // Populate table
-        const tbody = document.querySelector('#datasets-table tbody');
-        datasets.forEach(d => {
-          const tr = document.createElement('tr');
-          tr.innerHTML = `
-            <td>${d.source_name}</td>
-            <td>${d.title}</td>
-            <td>${d.description || ''}</td>
-            <td><a href="${d.url}" target="_blank">link</a></td>
-            <td>${d.format_ || ''}</td>
-          `;
-          tbody.appendChild(tr);
-        });
-      } catch (err) {
-        console.error('Failed to fetch datasets:', err);
-      }
+async function loadDatasets() {
+    try {
+        const res = await fetch('http://localhost:8000/datasets');
+        datasets = await res.json();
+        populateSourceDropdown();
+        renderTable();
+        statusDiv.textContent = `Explore ${datasets.length} publicly available national datasets`;
+    } catch (err) {
+        statusDiv.textContent = "Failed to load datasets";
+        console.error(err);
     }
+}
 
-    // Run on page load
-    window.addEventListener('DOMContentLoaded', loadDatasets);
-  </script>
+function populateSourceDropdown() {
+    const sources = [...new Set(datasets.map(d => d.source_name))];
+    sourceFilter.innerHTML = '<option value="">All Sources</option>';
+    sources.forEach(s => {
+        const option = document.createElement('option');
+        option.value = s;
+        option.textContent = s;
+        sourceFilter.appendChild(option);
+    });
+}
+
+function getFilteredData() {
+    const search = searchInput.value.toLowerCase();
+    const source = sourceFilter.value;
+    return datasets.filter(d => {
+        const matchesSource = !source || d.source_name === source;
+        const matchesSearch = d.title.toLowerCase().includes(search) ||
+                              (d.description && d.description.toLowerCase().includes(search));
+        return matchesSource && matchesSearch;
+    });
+}
+
+function renderTable() {
+    tableBody.innerHTML = '';
+    const filteredData = getFilteredData();
+    const start = (currentPage - 1) * pageSize;
+    const end = start + pageSize;
+    const pageData = filteredData.slice(start, end);
+
+    pageData.forEach(d => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+            <td>${d.source_name || ""}</td>
+            <td>${d.title || ""}</td>
+            <td>${d.description || ""}</td>
+            <td>${d.url ? `<a href="${d.url}" target="_blank">Download</a>` : ""}</td>
+            <td>${d.format_ || ""}</td>
+        `;
+        tableBody.appendChild(tr);
+    });
+    updatePagination();
+}
+
+function updatePagination() {
+    const filteredData = getFilteredData();
+    const totalPages = Math.ceil(filteredData.length / pageSize);
+    pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+    prevBtn.disabled = currentPage === 1;
+    nextBtn.disabled = currentPage === totalPages || totalPages === 0;
+}
+
+// Event listeners
+prevBtn.addEventListener('click', () => { if (currentPage > 1) { currentPage--; renderTable(); } });
+nextBtn.addEventListener('click', () => { const totalPages = Math.ceil(getFilteredData().length / pageSize); if (currentPage < totalPages) { currentPage++; renderTable(); } });
+searchInput.addEventListener('input', () => { currentPage = 1; renderTable(); });
+sourceFilter.addEventListener('change', () => { currentPage = 1; renderTable(); });
+
+// Load data
+loadDatasets();
+</script>
+
 </body>
 </html>

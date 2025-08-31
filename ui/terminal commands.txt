@@ -1,3 +1,8 @@
+# Harvest data
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+.\venv\Scripts\activate
+python -m harvest_data.harvest_runner
+
 # Backend setup
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 .\venv\Scripts\activate
@@ -12,3 +17,4 @@ npm run dev
 # UI
 http://localhost:5173/
 http://localhost:8000/datasets
+

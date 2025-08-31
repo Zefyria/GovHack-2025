@@ -23,11 +23,13 @@ def insert_dataset(db_conn, source_name, title, description, url, format_=""):
     cur.close()
 
 
-def fetch_abs(conn, url, max_results=50):
+# ---------------- ABS API FETCH ----------------
+def fetch_abs(conn):
     print("Processing Australian Bureau of Statistics (api)")
+    url = "https://data.api.abs.gov.au/rest/dataflow/ABS"
 
     try:
-        response = requests.get(url, timeout=30)
+        response = requests.get(url, timeout=60)
         response.raise_for_status()
     except requests.RequestException as e:
         print(f"Failed to fetch API data: {e} for url: {url}")
@@ -35,27 +37,34 @@ def fetch_abs(conn, url, max_results=50):
 
     # Parse XML
     root = ET.fromstring(response.content)
-    ns = {'struc': 'http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure',
-          'com': 'http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common'}
+    ns = {
+        'struc': 'http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure',
+        'com': 'http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common',
+        'msg': 'http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message'
+    }
 
     dataflows = root.findall('.//struc:Dataflow', ns)
     count = 0
     for df in dataflows:
-        if count >= max_results:
-            break
         name_elem = df.find('com:Name', ns)
         desc_elem = df.find('com:Description', ns)
         title = name_elem.text if name_elem is not None else df.get('id')
         description = desc_elem.text if desc_elem is not None else ""
         dataset_url = f"https://data.api.abs.gov.au/rest/data/{df.get('id')}/all"
+
         insert_dataset(conn, "Australian Bureau of Statistics", title, description, dataset_url, "xml")
         count += 1
+        if count % 100 == 0:
+            print(f"Inserted {count} ABS datasets so far...")
 
-    print(f"Australian Bureau of Statistics returned {count} datasets")
+    print(f"Australian Bureau of Statistics returned {len(dataflows)} datasets")
+
+
+# ---------------- ATO FETCH ----------------
 def fetch_ato(conn, urls):
     """
     Fetch ATO XLSX datasets from data.gov.au dataset pages.
-    
+
     - urls: list of dataset page URLs
     - Inserts only the first XLSX per page, with title from <title> tag
     """
@@ -90,41 +99,53 @@ def fetch_ato(conn, urls):
         insert_dataset(conn, "ATO", title, None, href, "xlsx")
         count += 1
 
+        if count % 10 == 0:
+            print(f"Inserted {count} ATO datasets so far...")
+
     print(f"ATO returned {count} datasets")
 
-def fetch_data_gov_au(db_conn, url, max_results=50):
-    """Fetch datasets from Data.gov.au using URL from JSON and insert into DB."""
-    print("Processing Data.gov.au (api)")
-    
-    # Ensure only one ? and correct parameter chaining
-    if "?" not in url:
-        url += f"?rows={max_results}&start=0"
-    else:
-        url += f"&rows={max_results}&start=0"
-    
-    try:
-        resp = requests.get(url, timeout=30)
-        resp.raise_for_status()
-    except requests.RequestException as e:
-        print(f"Failed to fetch API data: {e} for url: {url}")
-        return
-    
-    data = resp.json()
-    results = data.get("result", {}).get("results", [])
-    
-    for item in results[:max_results]:
-        insert_dataset(
-            db_conn,
-            "Data.gov.au",
-            item.get("title"),
-            item.get("notes"),
-            item.get("url"),
-            item.get("format", "")
-        )
-    
-    print(f"Data.gov.au returned {len(results[:max_results])} datasets")
 
-def fetch_all_datasets(max_results_per_source=50):
+# ---------------- Data.gov.au API FETCH ----------------
+def fetch_data_gov_au(conn, base_url):
+    """Fetch ALL datasets from Data.gov.au using pagination (no limit)."""
+    print("Processing Data.gov.au (api)")
+    start = 0
+    rows_per_request = 100  # fetch 100 per request for efficiency
+    total_count = 0
+
+    while True:
+        try:
+            url = f"{base_url}?start={start}&rows={rows_per_request}"
+            resp = requests.get(url, timeout=60)
+            resp.raise_for_status()
+        except requests.RequestException as e:
+            print(f"Failed to fetch API data: {e} for url: {url}")
+            break
+
+        data = resp.json()
+        results = data.get("result", {}).get("results", [])
+        if not results:
+            break
+
+        for item in results:
+            insert_dataset(
+                conn,
+                "Data.gov.au",
+                item.get("title"),
+                item.get("notes"),
+                item.get("url"),
+                item.get("format", "")
+            )
+            total_count += 1
+
+        start += rows_per_request
+        print(f"Fetched {total_count} datasets from Data.gov.au so far...")
+
+    print(f"Data.gov.au fetch complete. Total: {total_count}")
+
+
+# ---------------- MAIN FETCH ALL ----------------
+def fetch_all_datasets():
     """Fetch datasets from all sources listed in urls.json."""
     conn = get_connection()
 
@@ -136,13 +157,14 @@ def fetch_all_datasets(max_results_per_source=50):
         name = source["name"]
         url = source["url"]
         type_ = source["type"]
-        
+
+        print(f"Starting source: {name}")
         if "ato" in type_:
             fetch_ato(conn, url)
         elif type_ == "data.gov.au api":
-            fetch_data_gov_au(conn, url, max_results_per_source)
+            fetch_data_gov_au(conn, url)
         elif type_ == "abs api":
-            fetch_abs(conn, url, max_results_per_source)
+            fetch_abs(conn)
         else:
             print(f"Unknown source type: {type_} for source: {name}")
 
